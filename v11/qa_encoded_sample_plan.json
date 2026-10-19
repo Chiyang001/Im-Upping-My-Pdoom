@@ -1,0 +1,146 @@
+[
+  {
+    "kind": "pdoom",
+    "index": 0,
+    "column": 0,
+    "t": 23.650000000000002,
+    "label": "PDOOM 1 +0.03s",
+    "file": "v11/qa_encoded_pdoom_0_0.jpg"
+  },
+  {
+    "kind": "pdoom",
+    "index": 0,
+    "column": 1,
+    "t": 23.85,
+    "label": "PDOOM 1 +0.23s",
+    "file": "v11/qa_encoded_pdoom_0_1.jpg"
+  },
+  {
+    "kind": "pdoom",
+    "index": 0,
+    "column": 2,
+    "t": 24.470000000000002,
+    "label": "PDOOM 1 +0.85s",
+    "file": "v11/qa_encoded_pdoom_0_2.jpg"
+  },
+  {
+    "kind": "pdoom",
+    "index": 1,
+    "column": 0,
+    "t": 60.015,
+    "label": "PDOOM 2 +0.03s",
+    "file": "v11/qa_encoded_pdoom_1_0.jpg"
+  },
+  {
+    "kind": "pdoom",
+    "index": 1,
+    "column": 1,
+    "t": 60.214999999999996,
+    "label": "PDOOM 2 +0.23s",
+    "file": "v11/qa_encoded_pdoom_1_1.jpg"
+  },
+  {
+    "kind": "pdoom",
+    "index": 1,
+    "column": 2,
+    "t": 60.835,
+    "label": "PDOOM 2 +0.85s",
+    "file": "v11/qa_encoded_pdoom_1_2.jpg"
+  },
+  {
+    "kind": "pdoom",
+    "index": 2,
+    "column": 0,
+    "t": 96.365,
+    "label": "PDOOM 3 +0.03s",
+    "file": "v11/qa_encoded_pdoom_2_0.jpg"
+  },
+  {
+    "kind": "pdoom",
+    "index": 2,
+    "column": 1,
+    "t": 96.565,
+    "label": "PDOOM 3 +0.23s",
+    "file": "v11/qa_encoded_pdoom_2_1.jpg"
+  },
+  {
+    "kind": "pdoom",
+    "index": 2,
+    "column": 2,
+    "t": 97.18499999999999,
+    "label": "PDOOM 3 +0.85s",
+    "file": "v11/qa_encoded_pdoom_2_2.jpg"
+  },
+  {
+    "kind": "pdoom",
+    "index": 3,
+    "column": 0,
+    "t": 125.49,
+    "label": "PDOOM 4 +0.03s",
+    "file": "v11/qa_encoded_pdoom_3_0.jpg"
+  },
+  {
+    "kind": "pdoom",
+    "index": 3,
+    "column": 1,
+    "t": 125.69,
+    "label": "PDOOM 4 +0.23s",
+    "file": "v11/qa_encoded_pdoom_3_1.jpg"
+  },
+  {
+    "kind": "pdoom",
+    "index": 3,
+    "column": 2,
+    "t": 126.30999999999999,
+    "label": "PDOOM 4 +0.85s",
+    "file": "v11/qa_encoded_pdoom_3_2.jpg"
+  },
+  {
+    "kind": "action",
+    "index": 0,
+    "column": 0,
+    "t": 10.8,
+    "label": "loss cliff: descend on DROP",
+    "file": "v11/qa_encoded_action_0.jpg"
+  },
+  {
+    "kind": "action",
+    "index": 1,
+    "column": 1,
+    "t": 20.8,
+    "label": "jaw: enter the gap, teeth scrape past the lens",
+    "file": "v11/qa_encoded_action_1.jpg"
+  },
+  {
+    "kind": "action",
+    "index": 2,
+    "column": 2,
+    "t": 47.78,
+    "label": "acceleration: punch through the lane fins",
+    "file": "v11/qa_encoded_action_2.jpg"
+  },
+  {
+    "kind": "action",
+    "index": 3,
+    "column": 0,
+    "t": 82.39,
+    "label": "sharp left: counterbank across the outer rail",
+    "file": "v11/qa_encoded_action_3.jpg"
+  },
+  {
+    "kind": "action",
+    "index": 4,
+    "column": 1,
+    "t": 114.62,
+    "label": "disobey: scrape across a shearing machine joint",
+    "file": "v11/qa_encoded_action_4.jpg"
+  },
+  {
+    "kind": "action",
+    "index": 5,
+    "column": 2,
+    "t": 122.13,
+    "label": "RLHF askew: bank across interconnect layers",
+    "file": "v11/qa_encoded_action_5.jpg"
+  }
+]

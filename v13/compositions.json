@@ -1,0 +1,1195 @@
+{
+  "word_scale_guard": {
+    "1": 0.9526945879343788,
+    "11": 0.993708399424506,
+    "18": 0.5926876993764036,
+    "23": 0.9460569337242991,
+    "28": 0.8789281236331825
+  },
+  "shots": [
+    {
+      "active": true,
+      "shot": 0,
+      "shot_id": 0,
+      "shot_start": 0.0,
+      "shot_end": 5.7,
+      "shot_progress": 0.5,
+      "camera_eye": [
+        1.25,
+        1.7,
+        10.45
+      ],
+      "camera_target": [
+        -0.44000000000000006,
+        0.11000000000000001,
+        -3.275
+      ],
+      "roll": -0.0075,
+      "fov": 49.65,
+      "kind": "iris_macro",
+      "lens": "close / 48-51 degrees",
+      "description": "Skim the etched iris at sensor distance, then pull across its rim.",
+      "word_anchor": [
+        0.0,
+        0.15,
+        -2.7
+      ],
+      "word_plane_rotation": [
+        -0.12,
+        0.12,
+        0.0
+      ],
+      "word_scale": 0.42,
+      "word_slot_scale": 0.32,
+      "word_surface": "engraved iris inspection plate",
+      "focal_node": 0
+    },
+    {
+      "active": true,
+      "shot": 1,
+      "shot_id": 1,
+      "shot_start": 5.7,
+      "shot_end": 9.1,
+      "shot_progress": 0.5000000000000001,
+      "camera_eye": [
+        -13.7,
+        2.0000000000000004,
+        -0.5000000000000007
+      ],
+      "camera_target": [
+        0.0,
+        0.11000000000000004,
+        -10.55
+      ],
+      "roll": -0.006499999999999985,
+      "fov": 53.2,
+      "kind": "circuit_lateral",
+      "lens": "close / 46-51 degrees",
+      "description": "Run sideways along the circuit traces; the chips cross foreground.",
+      "word_anchor": [
+        -0.5,
+        -0.4,
+        -6.0
+      ],
+      "word_plane_rotation": [
+        -0.05,
+        -0.97,
+        -0.01
+      ],
+      "word_scale": 0.45,
+      "word_slot_scale": 0.32,
+      "word_surface": "side-facing circuit carrier",
+      "focal_node": 1
+    },
+    {
+      "active": true,
+      "shot": 2,
+      "shot_id": 2,
+      "shot_start": 9.1,
+      "shot_end": 12.99,
+      "shot_progress": 0.5,
+      "camera_eye": [
+        0.5499999999999998,
+        21.7,
+        2.05
+      ],
+      "camera_target": [
+        -0.55,
+        -1.55,
+        -5.65
+      ],
+      "roll": -0.012500000000000004,
+      "fov": 54.75,
+      "kind": "loss_overhead",
+      "lens": "high angle / 52-57 degrees",
+      "description": "Read the loss cliff from overhead while sliding diagonally downhill.",
+      "word_anchor": [
+        0.0,
+        -0.4,
+        -3.8
+      ],
+      "word_plane_rotation": [
+        -1.3,
+        0.08,
+        0.0
+      ],
+      "word_scale": 0.65,
+      "word_slot_scale": 0.32,
+      "word_surface": "training-loss contour floor",
+      "focal_node": 2
+    },
+    {
+      "active": true,
+      "shot": 3,
+      "shot_id": 3,
+      "shot_start": 12.99,
+      "shot_end": 17.07,
+      "shot_progress": 0.5000000000000002,
+      "camera_eye": [
+        -0.5999999999999979,
+        -7.699999999999999,
+        14.250000000000002
+      ],
+      "camera_target": [
+        0.3300000000000001,
+        2.165,
+        -5.0
+      ],
+      "roll": -0.0025000000000000126,
+      "fov": 58.2,
+      "kind": "command_worm_eye",
+      "lens": "very low angle / 56-60 degrees",
+      "description": "Pass underneath the command rig and look up at its hanging authority.",
+      "word_anchor": [
+        0.0,
+        1.2,
+        -4.2
+      ],
+      "word_plane_rotation": [
+        0.5,
+        -0.12,
+        0.015
+      ],
+      "word_scale": 0.63,
+      "word_slot_scale": 0.32,
+      "word_surface": "hanging command beam",
+      "focal_node": 3
+    },
+    {
+      "active": true,
+      "shot": 4,
+      "shot_id": 4,
+      "shot_start": 17.07,
+      "shot_end": 22.19,
+      "shot_progress": 0.5000000000000003,
+      "camera_eye": [
+        0.2899999999999986,
+        -0.5150000000000006,
+        8.3
+      ],
+      "camera_target": [
+        -0.18500000000000022,
+        -0.2750000000000002,
+        -10.100000000000001
+      ],
+      "roll": 0.010750000000000023,
+      "fov": 65.85000000000001,
+      "kind": "jaw_pov",
+      "lens": "aperture POV / 62-69 degrees",
+      "description": "Enter between the teeth at eye height; jaw blades scrape the lens.",
+      "word_anchor": [
+        0.0,
+        -0.4,
+        -4.0
+      ],
+      "word_plane_rotation": [
+        0.05,
+        0.03,
+        0.0
+      ],
+      "word_scale": 0.53,
+      "word_slot_scale": 0.32,
+      "word_surface": "inner jaw membrane",
+      "focal_node": 4
+    },
+    {
+      "active": true,
+      "shot": 5,
+      "shot_id": 5,
+      "shot_start": 22.19,
+      "shot_end": 25.685,
+      "shot_progress": 0.5,
+      "camera_eye": [
+        1.3999999999999995,
+        -6.95,
+        26.0
+      ],
+      "camera_target": [
+        0.0,
+        0.55,
+        -7.1
+      ],
+      "roll": 0.006499999999999992,
+      "fov": 68.4,
+      "kind": "detonation_low_wide",
+      "lens": "low wide / 64-72 degrees",
+      "description": "A low pressure-vessel view expands into the first P(doom) detonation.",
+      "word_anchor": [
+        0.0,
+        0.1,
+        -4.5
+      ],
+      "word_plane_rotation": [
+        0.22,
+        0.12,
+        0.0
+      ],
+      "word_scale": 0.8,
+      "word_slot_scale": 0.32,
+      "word_surface": "pressure-vessel cross member",
+      "focal_node": 5
+    },
+    {
+      "active": true,
+      "shot": 6,
+      "shot_id": 6,
+      "shot_start": 25.685,
+      "shot_end": 31.83,
+      "shot_progress": 0.5000000000000003,
+      "camera_eye": [
+        7.749999999999998,
+        2.1499999999999995,
+        6.6999999999999975
+      ],
+      "camera_target": [
+        -2.5500000000000003,
+        -0.7799999999999998,
+        -12.650000000000002
+      ],
+      "roll": -0.001999999999999981,
+      "fov": 57.75,
+      "kind": "room_over_shoulder",
+      "lens": "oblique medium / 55-60 degrees",
+      "description": "Cross the doorpost from the shoulder and see the room extend away.",
+      "word_anchor": [
+        0.7,
+        -0.8,
+        -6.3
+      ],
+      "word_plane_rotation": [
+        -0.08,
+        0.43,
+        -0.015
+      ],
+      "word_scale": 0.53,
+      "word_slot_scale": 0.32,
+      "word_surface": "inner room wall / incoming filament",
+      "focal_node": 6
+    },
+    {
+      "active": true,
+      "shot": 7,
+      "shot_id": 7,
+      "shot_start": 31.83,
+      "shot_end": 38.19,
+      "shot_progress": 0.5,
+      "camera_eye": [
+        -5.8500000000000005,
+        1.3250000000000002,
+        8.35
+      ],
+      "camera_target": [
+        -5.0,
+        0.11000000000000001,
+        -3.2199999999999998
+      ],
+      "roll": -0.0020000000000000018,
+      "fov": 42.2,
+      "kind": "seeing_eye_close",
+      "lens": "eye close-up / 40-44 degrees",
+      "description": "Cut directly to one Shinigami iris, not another whole-machine vista.",
+      "word_anchor": [
+        -4.8,
+        -0.35,
+        -2.5
+      ],
+      "word_plane_rotation": [
+        -0.08,
+        -0.07,
+        0.015
+      ],
+      "word_scale": 0.39,
+      "word_slot_scale": 0.32,
+      "word_surface": "left ocular rim engraving",
+      "focal_node": 8
+    },
+    {
+      "active": true,
+      "shot": 8,
+      "shot_id": 8,
+      "shot_start": 38.19,
+      "shot_end": 42.05,
+      "shot_progress": 0.5,
+      "camera_eye": [
+        0.7000000000000011,
+        18.8,
+        4.3
+      ],
+      "camera_target": [
+        0.10000000000000009,
+        -1.0,
+        -5.1
+      ],
+      "roll": 0.008000000000000007,
+      "fov": 53.2,
+      "kind": "stable_top_track",
+      "lens": "top view / 51-55 degrees",
+      "description": "Track over the stable oscilloscope deck as if it were a real table.",
+      "word_anchor": [
+        0.0,
+        -0.6,
+        -4.5
+      ],
+      "word_plane_rotation": [
+        -1.28,
+        0.0,
+        -0.025
+      ],
+      "word_scale": 0.64,
+      "word_slot_scale": 0.32,
+      "word_surface": "horizontal oscilloscope deck",
+      "focal_node": 9
+    },
+    {
+      "active": true,
+      "shot": 9,
+      "shot_id": 9,
+      "shot_start": 42.05,
+      "shot_end": 44.79,
+      "shot_progress": 0.5000000000000013,
+      "camera_eye": [
+        10.649999999999993,
+        -9.100000000000007,
+        8.250000000000004
+      ],
+      "camera_target": [
+        -0.2750000000000007,
+        -1.5500000000000014,
+        -7.100000000000003
+      ],
+      "roll": 0.009999999999999863,
+      "fov": 58.75000000000001,
+      "kind": "singularity_undercut",
+      "lens": "low oblique / 56-61 degrees",
+      "description": "Drop below the folded funnel and inspect the space turning inside out.",
+      "word_anchor": [
+        0.1,
+        -1.5,
+        -4.8
+      ],
+      "word_plane_rotation": [
+        0.62,
+        0.53,
+        0.025
+      ],
+      "word_scale": 0.57,
+      "word_slot_scale": 0.32,
+      "word_surface": "underside of singularity shell",
+      "focal_node": 10
+    },
+    {
+      "active": true,
+      "shot": 10,
+      "shot_id": 10,
+      "shot_start": 44.79,
+      "shot_end": 48.645,
+      "shot_progress": 0.5,
+      "camera_eye": [
+        0.13500000000000012,
+        0.12500000000000006,
+        6.4399999999999995
+      ],
+      "camera_target": [
+        -0.33,
+        0.165,
+        -23.85
+      ],
+      "roll": 0.003500000000000003,
+      "fov": 73.3,
+      "kind": "acceleration_pov",
+      "lens": "forward POV / 70-76 degrees",
+      "description": "Race inside the lanes with foreground fins overtaking the lens.",
+      "word_anchor": [
+        0.0,
+        0.15,
+        -6.0
+      ],
+      "word_plane_rotation": [
+        0.035,
+        -0.015,
+        0.0
+      ],
+      "word_scale": 0.57,
+      "word_slot_scale": 0.32,
+      "word_surface": "forward acceleration gate",
+      "focal_node": 11
+    },
+    {
+      "active": true,
+      "shot": 11,
+      "shot_id": 11,
+      "shot_start": 48.645,
+      "shot_end": 53.885,
+      "shot_progress": 0.5,
+      "camera_eye": [
+        1.8749999999999996,
+        2.61,
+        7.630000000000001
+      ],
+      "camera_target": [
+        -3.9313000000000002,
+        0.5253,
+        -1.2087
+      ],
+      "roll": -0.0025000000000000022,
+      "fov": 42.2,
+      "kind": "atom_specimen_macro",
+      "lens": "instrument macro / 35-40 degrees",
+      "description": "Inspect the atoms from a close probe; bonds cross each other in depth.",
+      "word_anchor": [
+        -3.4,
+        0.25,
+        -1.8
+      ],
+      "word_plane_rotation": [
+        -0.1,
+        0.6,
+        0.0
+      ],
+      "word_scale": 0.3,
+      "word_slot_scale": 0.32,
+      "word_surface": "atomic specimen carrier",
+      "focal_node": 12
+    },
+    {
+      "active": true,
+      "shot": 12,
+      "shot_id": 12,
+      "shot_start": 53.885,
+      "shot_end": 58.43,
+      "shot_progress": 0.5,
+      "camera_eye": [
+        -11.6,
+        -4.25,
+        8.15
+      ],
+      "camera_target": [
+        0.55,
+        -0.44999999999999996,
+        -8.1
+      ],
+      "roll": -0.004249999999999997,
+      "fov": 54.3,
+      "kind": "prison_side_low",
+      "lens": "side tracking / 51-57 degrees",
+      "description": "Pass the bars from below and to one side, rather than face the cage.",
+      "word_anchor": [
+        -0.7,
+        -0.2,
+        -5.5
+      ],
+      "word_plane_rotation": [
+        0.24,
+        -0.65,
+        -0.02
+      ],
+      "word_scale": 0.55,
+      "word_slot_scale": 0.32,
+      "word_surface": "inside prison-bar cross plate",
+      "focal_node": 13
+    },
+    {
+      "active": true,
+      "shot": 13,
+      "shot_id": 13,
+      "shot_start": 58.43,
+      "shot_end": 65.92,
+      "shot_progress": 0.4999999999999995,
+      "camera_eye": [
+        2.5500000000000047,
+        -8.750000000000002,
+        19.95
+      ],
+      "camera_target": [
+        -0.5499999999999996,
+        2.55,
+        -6.55
+      ],
+      "roll": 0.0015000000000000221,
+      "fov": 64.75,
+      "kind": "basilisk_low_reveal",
+      "lens": "hero low angle / 62-67 degrees",
+      "description": "Look up the basilisk spine and climb across its enormous lower coils.",
+      "word_anchor": [
+        0.0,
+        0.3,
+        -5.0
+      ],
+      "word_plane_rotation": [
+        0.37,
+        0.13,
+        0.01
+      ],
+      "word_scale": 0.73,
+      "word_slot_scale": 0.32,
+      "word_surface": "lower basilisk coil",
+      "focal_node": 14
+    },
+    {
+      "active": true,
+      "shot": 14,
+      "shot_id": 14,
+      "shot_start": 65.92,
+      "shot_end": 68.185,
+      "shot_progress": 0.5000000000000031,
+      "camera_eye": [
+        12.999999999999986,
+        2.0499999999999714,
+        9.800000000000013
+      ],
+      "camera_target": [
+        2.4499999999999966,
+        -0.5500000000000032,
+        -10.100000000000007
+      ],
+      "roll": -0.0025000000000001583,
+      "fov": 52.30000000000002,
+      "kind": "compute_rack_side",
+      "lens": "rack medium / 49-55 degrees",
+      "description": "Descend beside one compute bank with modules filling a near edge.",
+      "word_anchor": [
+        2.4,
+        -0.5,
+        -6.7
+      ],
+      "word_plane_rotation": [
+        -0.16,
+        0.61,
+        0.015
+      ],
+      "word_scale": 0.55,
+      "word_slot_scale": 0.32,
+      "word_surface": "compute-bank side face",
+      "focal_node": 16
+    },
+    {
+      "active": true,
+      "shot": 15,
+      "shot_id": 15,
+      "shot_start": 68.185,
+      "shot_end": 73.87,
+      "shot_progress": 0.5,
+      "camera_eye": [
+        -7.45,
+        5.1,
+        9.7
+      ],
+      "camera_target": [
+        -6.9,
+        0.0,
+        -4.55
+      ],
+      "roll": 0.004750000000000001,
+      "fov": 40.75,
+      "kind": "approval_instrument",
+      "lens": "close inspection / 38-43 degrees",
+      "description": "Tilt past the safety shell to inspect its fragile approval surface.",
+      "word_anchor": [
+        -7.0,
+        -0.25,
+        -2.8
+      ],
+      "word_plane_rotation": [
+        -0.4,
+        -0.15,
+        0.0
+      ],
+      "word_scale": 0.37,
+      "word_slot_scale": 0.32,
+      "word_surface": "tilted safety-inspection plate",
+      "focal_node": 17
+    },
+    {
+      "active": true,
+      "shot": 16,
+      "shot_id": 16,
+      "shot_start": 73.87,
+      "shot_end": 77.24,
+      "shot_progress": 0.5000000000000021,
+      "camera_eye": [
+        -2.4500000000000197,
+        21.349999999999994,
+        -1.0000000000000173
+      ],
+      "camera_target": [
+        -0.5500000000000022,
+        -1.0,
+        -7.650000000000007
+      ],
+      "roll": -0.0025000000000001063,
+      "fov": 53.750000000000014,
+      "kind": "feedback_birdseye",
+      "lens": "birdseye / 51-56 degrees",
+      "description": "Expose the forward/backward mechanism from above and cross its loop.",
+      "word_anchor": [
+        0.0,
+        -0.6,
+        -4.7
+      ],
+      "word_plane_rotation": [
+        -1.31,
+        -0.05,
+        0.02
+      ],
+      "word_scale": 0.65,
+      "word_slot_scale": 0.32,
+      "word_surface": "feedback-machine top surface",
+      "focal_node": 18
+    },
+    {
+      "active": true,
+      "shot": 17,
+      "shot_id": 17,
+      "shot_start": 77.24,
+      "shot_end": 82.05,
+      "shot_progress": 0.5,
+      "camera_eye": [
+        -18.7,
+        4.75,
+        13.399999999999999
+      ],
+      "camera_target": [
+        -10.45,
+        0.0,
+        2.0
+      ],
+      "roll": -0.0002500000000000002,
+      "fov": 46.3,
+      "kind": "obsolete_over_shoulder",
+      "lens": "shoulder medium-close / 43-49 degrees",
+      "description": "See the abandoned mechanism past its large foreground shoulder.",
+      "word_anchor": [
+        -10.0,
+        0.1,
+        3.0
+      ],
+      "word_plane_rotation": [
+        -0.2,
+        -0.6,
+        -0.015
+      ],
+      "word_scale": 0.43,
+      "word_slot_scale": 0.32,
+      "word_surface": "abandoned machine reverse plate",
+      "focal_node": 19
+    },
+    {
+      "active": true,
+      "shot": 18,
+      "shot_id": 18,
+      "shot_start": 82.05,
+      "shot_end": 84.78,
+      "shot_progress": 0.4999999999999974,
+      "camera_eye": [
+        13.550000000000024,
+        1.839999999999998,
+        0.8500000000000343
+      ],
+      "camera_target": [
+        -1.0999999999999948,
+        0.10999999999999949,
+        -12.299999999999985
+      ],
+      "roll": -0.0034999999999998158,
+      "fov": 61.29999999999998,
+      "kind": "left_turn_cross_track",
+      "lens": "extreme side / 58-64 degrees",
+      "description": "Cut across the sharp left turn and sprint sideways through its path.",
+      "word_anchor": [
+        0.5,
+        -0.2,
+        -6.0
+      ],
+      "word_plane_rotation": [
+        -0.05,
+        0.97,
+        0.0
+      ],
+      "word_scale": 0.57,
+      "word_slot_scale": 0.32,
+      "word_surface": "outer face of turning rail",
+      "focal_node": 20
+    },
+    {
+      "active": true,
+      "shot": 19,
+      "shot_id": 19,
+      "shot_start": 84.78,
+      "shot_end": 89.995,
+      "shot_progress": 0.5,
+      "camera_eye": [
+        -10.7,
+        3.5,
+        9.4
+      ],
+      "camera_target": [
+        0.55,
+        0.275,
+        -8.1
+      ],
+      "roll": 0.005250000000000001,
+      "fov": 52.3,
+      "kind": "boundary_negative_space",
+      "lens": "oblique medium / 49-55 degrees",
+      "description": "Slip up the broken boundary and let its missing centre reveal depth.",
+      "word_anchor": [
+        -0.7,
+        0.2,
+        -5.6
+      ],
+      "word_plane_rotation": [
+        -0.18,
+        -0.57,
+        0.02
+      ],
+      "word_scale": 0.55,
+      "word_slot_scale": 0.32,
+      "word_surface": "remaining boundary wall",
+      "focal_node": 21
+    },
+    {
+      "active": true,
+      "shot": 20,
+      "shot_id": 20,
+      "shot_start": 89.995,
+      "shot_end": 95.91,
+      "shot_progress": 0.5,
+      "camera_eye": [
+        0.5,
+        -7.2,
+        7.85
+      ],
+      "camera_target": [
+        -0.275,
+        2.0,
+        -5.1
+      ],
+      "roll": -0.005250000000000001,
+      "fov": 56.3,
+      "kind": "gato_claw_pov",
+      "lens": "low close / 53-59 degrees",
+      "description": "Look up between the gripping fingers and follow the stretched tether.",
+      "word_anchor": [
+        0.0,
+        -0.3,
+        -3.8
+      ],
+      "word_plane_rotation": [
+        0.59,
+        0.06,
+        0.0
+      ],
+      "word_scale": 0.52,
+      "word_slot_scale": 0.32,
+      "word_surface": "underside of Gato finger bridge",
+      "focal_node": 22
+    },
+    {
+      "active": true,
+      "shot": 21,
+      "shot_id": 21,
+      "shot_start": 95.91,
+      "shot_end": 98.845,
+      "shot_progress": 0.5,
+      "camera_eye": [
+        2.0,
+        20.7,
+        0.09999999999999964
+      ],
+      "camera_target": [
+        0.55,
+        -3.0,
+        -7.1
+      ],
+      "roll": 0.008000000000000007,
+      "fov": 56.3,
+      "kind": "paperclip_factory_top",
+      "lens": "overhead production / 53-59 degrees",
+      "description": "See clips multiply across a true overhead conveyor composition.",
+      "word_anchor": [
+        0.0,
+        -1.9,
+        -5.0
+      ],
+      "word_plane_rotation": [
+        -1.34,
+        0.02,
+        -0.02
+      ],
+      "word_scale": 0.68,
+      "word_slot_scale": 0.32,
+      "word_surface": "paperclip-conveyor deck",
+      "focal_node": 23
+    },
+    {
+      "active": true,
+      "shot": 22,
+      "shot_id": 22,
+      "shot_start": 98.845,
+      "shot_end": 104.33,
+      "shot_progress": 0.5000000000000013,
+      "camera_eye": [
+        5.499999999999993,
+        0.5499999999999929,
+        7.599999999999997
+      ],
+      "camera_target": [
+        -0.2750000000000007,
+        -0.8899999999999998,
+        -5.550000000000002
+      ],
+      "roll": 0.00024999999999994124,
+      "fov": 42.30000000000001,
+      "kind": "killswitch_macro",
+      "lens": "switch macro / 39-45 degrees",
+      "description": "Inspect the unattended shutdown station at reach distance.",
+      "word_anchor": [
+        0.0,
+        -0.8,
+        -4.2
+      ],
+      "word_plane_rotation": [
+        -0.09,
+        0.32,
+        0.01
+      ],
+      "word_scale": 0.36,
+      "word_slot_scale": 0.32,
+      "word_surface": "vacant killswitch console",
+      "focal_node": 24
+    },
+    {
+      "active": true,
+      "shot": 23,
+      "shot_id": 23,
+      "shot_start": 104.33,
+      "shot_end": 109.33,
+      "shot_progress": 0.5,
+      "camera_eye": [
+        -11.149999999999999,
+        -0.5499999999999995,
+        2.8999999999999995
+      ],
+      "camera_target": [
+        0.55,
+        0.55,
+        -10.65
+      ],
+      "roll": 0.001250000000000008,
+      "fov": 56.85,
+      "kind": "orthogonal_reverse",
+      "lens": "reverse side / 53-60 degrees",
+      "description": "Pass behind the orthogonal axes and see their incompatible directions.",
+      "word_anchor": [
+        -0.5,
+        0.1,
+        -6.8
+      ],
+      "word_plane_rotation": [
+        0.09,
+        -0.72,
+        0.015
+      ],
+      "word_scale": 0.53,
+      "word_slot_scale": 0.32,
+      "word_surface": "reverse orthogonal-axis truss",
+      "focal_node": 26
+    },
+    {
+      "active": true,
+      "shot": 24,
+      "shot_id": 24,
+      "shot_start": 109.33,
+      "shot_end": 116.595,
+      "shot_progress": 0.500000000000001,
+      "camera_eye": [
+        10.449999999999994,
+        2.099999999999994,
+        5.499999999999994
+      ],
+      "camera_target": [
+        -0.550000000000001,
+        -0.1650000000000003,
+        -9.650000000000002
+      ],
+      "roll": -0.0057500000000000676,
+      "fov": 53.300000000000004,
+      "kind": "machine_reverse_shoulder",
+      "lens": "reverse shoulder / 50-56 degrees",
+      "description": "Approach disobedience from the back of a joint, beneath moving arms.",
+      "word_anchor": [
+        0.6,
+        0.25,
+        -6.2
+      ],
+      "word_plane_rotation": [
+        -0.11,
+        0.61,
+        -0.015
+      ],
+      "word_scale": 0.54,
+      "word_slot_scale": 0.32,
+      "word_surface": "reverse transformer-joint web",
+      "focal_node": 27
+    },
+    {
+      "active": true,
+      "shot": 25,
+      "shot_id": 25,
+      "shot_start": 116.595,
+      "shot_end": 118.645,
+      "shot_progress": 0.5000000000000034,
+      "camera_eye": [
+        1.6000000000000212,
+        -8.749999999999982,
+        7.499999999999987
+      ],
+      "camera_target": [
+        0.27500000000000174,
+        1.5500000000000034,
+        -8.650000000000011
+      ],
+      "roll": 0.005750000000000227,
+      "fov": 66.30000000000003,
+      "kind": "safety_fence_worm_eye",
+      "lens": "ground-level wide / 63-69 degrees",
+      "description": "Watch the fence burst overhead; fragments clear the low camera.",
+      "word_anchor": [
+        0.0,
+        -0.7,
+        -5.3
+      ],
+      "word_plane_rotation": [
+        0.63,
+        0.05,
+        0.0
+      ],
+      "word_scale": 0.6,
+      "word_slot_scale": 0.32,
+      "word_surface": "underside of breached fence",
+      "focal_node": 28
+    },
+    {
+      "active": true,
+      "shot": 26,
+      "shot_id": 26,
+      "shot_start": 118.645,
+      "shot_end": 123.87,
+      "shot_progress": 0.49999999999999867,
+      "camera_eye": [
+        -17.800000000000004,
+        6.700000000000004,
+        14.050000000000002
+      ],
+      "camera_target": [
+        -11.450000000000001,
+        2.0,
+        0.4500000000000013
+      ],
+      "roll": -0.0002500000000000592,
+      "fov": 39.29999999999999,
+      "kind": "gpu_interconnect_macro",
+      "lens": "chip macro / 36-42 degrees",
+      "description": "Skim a single bank of GPU interconnects while far racks shear past.",
+      "word_anchor": [
+        -11.5,
+        1.8,
+        3.0
+      ],
+      "word_plane_rotation": [
+        -0.3,
+        -0.4,
+        -0.015
+      ],
+      "word_scale": 0.33,
+      "word_slot_scale": 0.32,
+      "word_surface": "GPU interconnect substrate",
+      "focal_node": 29
+    },
+    {
+      "active": true,
+      "shot": 27,
+      "shot_id": 27,
+      "shot_start": 123.87,
+      "shot_end": 127.96,
+      "shot_progress": 0.4999999999999983,
+      "camera_eye": [
+        0.6500000000000158,
+        11.800000000000008,
+        1.6500000000000088
+      ],
+      "camera_target": [
+        -0.5499999999999983,
+        -3.8,
+        -8.774999999999999
+      ],
+      "roll": -0.005249999999999904,
+      "fov": 52.29999999999999,
+      "kind": "loom_overhead",
+      "lens": "overhead weave / 49-55 degrees",
+      "description": "Look down onto the prophecy loom and cross warp against weft.",
+      "word_anchor": [
+        0.0,
+        -3.2,
+        -7.8
+      ],
+      "word_plane_rotation": [
+        -1.23,
+        0.03,
+        0.025
+      ],
+      "word_scale": 0.48,
+      "word_slot_scale": 0.32,
+      "word_surface": "horizontal loom bed",
+      "focal_node": 30
+    },
+    {
+      "active": true,
+      "shot": 28,
+      "shot_id": 28,
+      "shot_start": 127.96,
+      "shot_end": 133.43,
+      "shot_progress": 0.4999999999999987,
+      "camera_eye": [
+        0.07500000000000195,
+        0.06499999999999967,
+        5.8000000000000105
+      ],
+      "camera_target": [
+        -0.32999999999999924,
+        0.10999999999999975,
+        -25.39999999999999
+      ],
+      "roll": 0.003499999999999913,
+      "fov": 68.39999999999999,
+      "kind": "recursive_aperture_pov",
+      "lens": "aperture POV / 64-72 degrees",
+      "description": "Drive through successive recursive glyph apertures at their centre.",
+      "word_anchor": [
+        0.0,
+        0.1,
+        -6.5
+      ],
+      "word_plane_rotation": [
+        -0.025,
+        -0.025,
+        0.0
+      ],
+      "word_scale": 0.57,
+      "word_slot_scale": 0.32,
+      "word_surface": "recursive-upgrade aperture",
+      "focal_node": 31
+    },
+    {
+      "active": true,
+      "shot": 29,
+      "shot_id": 29,
+      "shot_start": 133.43,
+      "shot_end": 136.83,
+      "shot_progress": 0.49999999999999584,
+      "camera_eye": [
+        3.185000000000014,
+        1.4000000000000044,
+        -2.699999999999958
+      ],
+      "camera_target": [
+        -1.754,
+        -0.06,
+        -22.294999999999945
+      ],
+      "roll": -0.0024999999999997906,
+      "fov": 45.19999999999998,
+      "kind": "observer_shoulder",
+      "lens": "observer shoulder / 44-50 degrees",
+      "description": "Reveal the observer through the opening eye from its theatre wing.",
+      "word_anchor": [
+        -0.8,
+        -1.1,
+        -13.8
+      ],
+      "word_plane_rotation": [
+        -0.05,
+        0.18,
+        0.0
+      ],
+      "word_scale": 0.32,
+      "word_slot_scale": 0.32,
+      "word_surface": "observer aperture inner wall",
+      "focal_node": 32
+    },
+    {
+      "active": true,
+      "shot": 30,
+      "shot_id": 30,
+      "shot_start": 136.83,
+      "shot_end": 141.14,
+      "shot_progress": 0.5000000000000033,
+      "camera_eye": [
+        -8.74999999999995,
+        7.65000000000001,
+        26.00000000000004
+      ],
+      "camera_target": [
+        0.0,
+        0.5500000000000034,
+        -9.100000000000007
+      ],
+      "roll": -0.007499999999999833,
+      "fov": 59.95000000000003,
+      "kind": "theatre_wide_reveal",
+      "lens": "wide reveal / 55-64 degrees",
+      "description": "Escape the theatre wing into the full machine before the beat outro.",
+      "word_anchor": [
+        0.0,
+        0.2,
+        -5.2
+      ],
+      "word_plane_rotation": [
+        -0.15,
+        -0.2,
+        0.0
+      ],
+      "word_scale": 0.82,
+      "word_slot_scale": 0.32,
+      "word_surface": "theatre proscenium cross beam",
+      "focal_node": 33
+    },
+    {
+      "active": true,
+      "shot": 31,
+      "shot_id": 31,
+      "shot_start": 141.14,
+      "shot_end": 141.2,
+      "shot_progress": 0.5,
+      "camera_eye": [
+        -1.835,
+        8.055,
+        32.165
+      ],
+      "camera_target": [
+        0.0,
+        1.0,
+        -10.11
+      ],
+      "roll": 0.015,
+      "fov": 64.55,
+      "kind": "whole_machine_handoff",
+      "lens": "wide / 65 degrees",
+      "description": "Hand the whole-machine reveal directly to the existing beat outro.",
+      "word_anchor": [
+        0.0,
+        0.2,
+        -5.2
+      ],
+      "word_plane_rotation": [
+        -0.15,
+        -0.2,
+        0.0
+      ],
+      "word_scale": 0.82,
+      "word_slot_scale": 0.32,
+      "word_surface": "theatre proscenium cross beam",
+      "focal_node": 33
+    }
+  ]
+}

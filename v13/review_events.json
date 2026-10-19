@@ -1,0 +1,447 @@
+[
+  {
+    "t": 5.7,
+    "kind": "match",
+    "label": "spark / circuit"
+  },
+  {
+    "t": 9.1,
+    "kind": "crash",
+    "label": "current / loss cliff"
+  },
+  {
+    "t": 10.52,
+    "label": "LOSS DROP",
+    "kind": "flight attack"
+  },
+  {
+    "t": 10.924999999999999,
+    "label": "LOSS DROP plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 12.99,
+    "kind": "match",
+    "label": "loss cliff / boss bridge"
+  },
+  {
+    "t": 17.07,
+    "kind": "occlusion",
+    "label": "boss bridge / jaw"
+  },
+  {
+    "t": 22.19,
+    "kind": "occlusion",
+    "label": "jaw / city"
+  },
+  {
+    "t": 23.62,
+    "kind": "radial",
+    "label": "PDOOM 1"
+  },
+  {
+    "t": 25.685,
+    "kind": "match",
+    "label": "FOOM / room"
+  },
+  {
+    "t": 31.83,
+    "kind": "match",
+    "label": "lies / seeing eye"
+  },
+  {
+    "t": 38.19,
+    "kind": "match",
+    "label": "eye / training ring"
+  },
+  {
+    "t": 42.05,
+    "label": "SINGULARITY",
+    "kind": "flight attack"
+  },
+  {
+    "t": 44.074999999999996,
+    "label": "SINGULARITY plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 44.79,
+    "kind": "whip",
+    "label": "singularity / acceleration"
+  },
+  {
+    "t": 47.44,
+    "label": "ACCELERATING",
+    "kind": "flight attack"
+  },
+  {
+    "t": 48.58,
+    "label": "ACCELERATING plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 48.645,
+    "kind": "shatter",
+    "label": "speed / rearranged atoms"
+  },
+  {
+    "t": 49.785,
+    "label": "ATOMS",
+    "kind": "flight attack"
+  },
+  {
+    "t": 50.205,
+    "label": "ATOMS plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 53.885,
+    "kind": "occlusion",
+    "label": "atoms / prison"
+  },
+  {
+    "t": 58.43,
+    "kind": "whip",
+    "label": "prison / basilisk"
+  },
+  {
+    "t": 59.985,
+    "kind": "vertical",
+    "label": "PDOOM 2"
+  },
+  {
+    "t": 65.92,
+    "kind": "match",
+    "label": "ascent / compute grid"
+  },
+  {
+    "t": 68.185,
+    "kind": "occlusion",
+    "label": "compute / safety stamp"
+  },
+  {
+    "t": 73.87,
+    "kind": "match",
+    "label": "approval / feedback"
+  },
+  {
+    "t": 76.42,
+    "label": "FEEDBACK REPEAT",
+    "kind": "flight attack"
+  },
+  {
+    "t": 77.18,
+    "label": "FEEDBACK REPEAT plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 77.24,
+    "kind": "occlusion",
+    "label": "feedback / obsolete rig"
+  },
+  {
+    "t": 82.05,
+    "kind": "whip",
+    "label": "sharp left turn"
+  },
+  {
+    "t": 84.78,
+    "kind": "match",
+    "label": "turn / missing CDR"
+  },
+  {
+    "t": 89.995,
+    "kind": "occlusion",
+    "label": "boundary / Gato grip"
+  },
+  {
+    "t": 94.3,
+    "label": "GO seismic attack",
+    "kind": "earthquake"
+  },
+  {
+    "t": 94.8,
+    "label": "GO seismic attack",
+    "kind": "earthquake"
+  },
+  {
+    "t": 95.23,
+    "label": "GO seismic attack",
+    "kind": "earthquake"
+  },
+  {
+    "t": 95.435,
+    "label": "GO seismic attack",
+    "kind": "earthquake"
+  },
+  {
+    "t": 95.68,
+    "label": "GO seismic attack",
+    "kind": "earthquake"
+  },
+  {
+    "t": 95.91,
+    "kind": "match",
+    "label": "grip / conveyor"
+  },
+  {
+    "t": 96.335,
+    "kind": "fracture",
+    "label": "PDOOM 3"
+  },
+  {
+    "t": 98.845,
+    "kind": "whip",
+    "label": "factory / empty killswitch"
+  },
+  {
+    "t": 103.87,
+    "label": "FUSE",
+    "kind": "flight attack"
+  },
+  {
+    "t": 104.33,
+    "kind": "crash",
+    "label": "fuse / orthogonal machine"
+  },
+  {
+    "t": 109.33,
+    "kind": "occlusion",
+    "label": "machine joint / disobedience"
+  },
+  {
+    "t": 114.22,
+    "label": "DISOBEY",
+    "kind": "flight attack"
+  },
+  {
+    "t": 114.94,
+    "label": "DISOBEY plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 116.595,
+    "kind": "shatter",
+    "label": "fence / broken safety"
+  },
+  {
+    "t": 117.505,
+    "label": "SAFETY FENCE",
+    "kind": "flight attack"
+  },
+  {
+    "t": 117.925,
+    "label": "SAFETY FENCE plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 118.645,
+    "kind": "match",
+    "label": "fragments / GPU array"
+  },
+  {
+    "t": 121.76,
+    "label": "ASKEW",
+    "kind": "flight attack"
+  },
+  {
+    "t": 122.485,
+    "label": "ASKEW plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 123.87,
+    "kind": "match",
+    "label": "GPU grid / loom"
+  },
+  {
+    "t": 125.46,
+    "kind": "recursive",
+    "label": "PDOOM 4"
+  },
+  {
+    "t": 127.96,
+    "kind": "crash",
+    "label": "loom / recursive upgrade"
+  },
+  {
+    "t": 131.14,
+    "label": "SELF UPGRADE",
+    "kind": "flight attack"
+  },
+  {
+    "t": 131.515,
+    "label": "SELF UPGRADE plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 133.43,
+    "kind": "match",
+    "label": "eye / observer"
+  },
+  {
+    "t": 136.83,
+    "kind": "occlusion",
+    "label": "observer / theatre show"
+  },
+  {
+    "t": 139.58,
+    "label": "SHOW EXIT",
+    "kind": "flight attack"
+  },
+  {
+    "t": 140.425,
+    "label": "SHOW EXIT plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 141.14,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 141.595,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 142.05,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 142.505,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 142.96,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 143.415,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 143.87,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 144.32,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 144.775,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 145.23,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 145.685,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 146.14,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 146.595,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 147.06,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 147.505,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 147.97,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 148.415,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 148.88,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 149.32,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 149.775,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 150.23,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 150.7,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 151.14,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 151.595,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 152.05,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 152.505,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 152.96,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 153.415,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 153.87,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 154.325,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  }
+]

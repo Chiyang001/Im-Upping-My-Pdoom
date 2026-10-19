@@ -1,0 +1,237 @@
+[
+  {
+    "t": 5.7,
+    "kind": "match",
+    "label": "spark / circuit"
+  },
+  {
+    "t": 9.1,
+    "kind": "crash",
+    "label": "current / loss cliff"
+  },
+  {
+    "t": 12.99,
+    "kind": "match",
+    "label": "loss cliff / boss bridge"
+  },
+  {
+    "t": 17.07,
+    "kind": "occlusion",
+    "label": "boss bridge / jaw"
+  },
+  {
+    "t": 22.19,
+    "kind": "occlusion",
+    "label": "jaw / city"
+  },
+  {
+    "t": 25.685,
+    "kind": "match",
+    "label": "FOOM / room"
+  },
+  {
+    "t": 31.83,
+    "kind": "match",
+    "label": "lies / seeing eye"
+  },
+  {
+    "t": 38.19,
+    "kind": "match",
+    "label": "eye / training ring"
+  },
+  {
+    "t": 42.05,
+    "kind": "implosion",
+    "label": "SINGULARITY"
+  },
+  {
+    "t": 44.79,
+    "kind": "whip",
+    "label": "singularity / acceleration"
+  },
+  {
+    "t": 48.645,
+    "kind": "shatter",
+    "label": "speed / rearranged atoms"
+  },
+  {
+    "t": 53.885,
+    "kind": "occlusion",
+    "label": "atoms / prison"
+  },
+  {
+    "t": 58.43,
+    "kind": "whip",
+    "label": "prison / basilisk"
+  },
+  {
+    "t": 65.92,
+    "kind": "match",
+    "label": "ascent / compute grid"
+  },
+  {
+    "t": 68.185,
+    "kind": "occlusion",
+    "label": "compute / safety stamp"
+  },
+  {
+    "t": 73.87,
+    "kind": "match",
+    "label": "approval / feedback"
+  },
+  {
+    "t": 77.24,
+    "kind": "occlusion",
+    "label": "feedback / obsolete rig"
+  },
+  {
+    "t": 82.05,
+    "kind": "whip",
+    "label": "sharp left turn"
+  },
+  {
+    "t": 84.78,
+    "kind": "match",
+    "label": "turn / missing CDR"
+  },
+  {
+    "t": 89.995,
+    "kind": "occlusion",
+    "label": "boundary / Gato grip"
+  },
+  {
+    "t": 95.91,
+    "kind": "match",
+    "label": "grip / conveyor"
+  },
+  {
+    "t": 98.845,
+    "kind": "whip",
+    "label": "factory / empty killswitch"
+  },
+  {
+    "t": 104.33,
+    "kind": "crash",
+    "label": "fuse / orthogonal machine"
+  },
+  {
+    "t": 109.33,
+    "kind": "occlusion",
+    "label": "machine joint / disobedience"
+  },
+  {
+    "t": 116.595,
+    "kind": "shatter",
+    "label": "fence / broken safety"
+  },
+  {
+    "t": 118.645,
+    "kind": "match",
+    "label": "fragments / GPU array"
+  },
+  {
+    "t": 123.87,
+    "kind": "match",
+    "label": "GPU grid / loom"
+  },
+  {
+    "t": 127.96,
+    "kind": "crash",
+    "label": "loom / recursive upgrade"
+  },
+  {
+    "t": 133.43,
+    "kind": "match",
+    "label": "eye / observer"
+  },
+  {
+    "t": 136.83,
+    "kind": "occlusion",
+    "label": "observer / theatre show"
+  },
+  {
+    "t": 141.14,
+    "kind": "pullback",
+    "label": "OUTRO 0"
+  },
+  {
+    "t": 23.62,
+    "kind": "radial",
+    "label": "PDOOM 1"
+  },
+  {
+    "t": 49.785,
+    "kind": "chain",
+    "label": "ATOMS"
+  },
+  {
+    "t": 59.985,
+    "kind": "vertical",
+    "label": "PDOOM 2"
+  },
+  {
+    "t": 96.335,
+    "kind": "fracture",
+    "label": "PDOOM 3"
+  },
+  {
+    "t": 103.87,
+    "kind": "directional",
+    "label": "FUSE"
+  },
+  {
+    "t": 117.505,
+    "kind": "fracture",
+    "label": "SAFETY FENCE"
+  },
+  {
+    "t": 125.46,
+    "kind": "recursive",
+    "label": "PDOOM 4"
+  },
+  {
+    "t": 131.14,
+    "kind": "recursive",
+    "label": "SELF UPGRADE"
+  },
+  {
+    "t": 142.96,
+    "kind": "whip",
+    "label": "OUTRO 4"
+  },
+  {
+    "t": 144.775,
+    "kind": "match",
+    "label": "OUTRO 8"
+  },
+  {
+    "t": 146.595,
+    "kind": "crash",
+    "label": "OUTRO 12"
+  },
+  {
+    "t": 148.415,
+    "kind": "occlusion",
+    "label": "OUTRO 16"
+  },
+  {
+    "t": 150.23,
+    "kind": "shatter",
+    "label": "OUTRO 20"
+  },
+  {
+    "t": 152.05,
+    "kind": "match",
+    "label": "OUTRO 24"
+  },
+  {
+    "t": 152.96,
+    "kind": "whip",
+    "label": "OUTRO 26"
+  },
+  {
+    "t": 153.87,
+    "kind": "pullback",
+    "label": "OUTRO 28"
+  }
+]

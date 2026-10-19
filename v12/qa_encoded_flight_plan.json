@@ -1,0 +1,82 @@
+[
+  {
+    "name": "PDOOM 1",
+    "time": 23.77,
+    "file": "v12\\qa_encoded_flight_0_0.jpg"
+  },
+  {
+    "name": "PDOOM 1",
+    "time": 23.939999999999998,
+    "file": "v12\\qa_encoded_flight_0_1.jpg"
+  },
+  {
+    "name": "PDOOM 1",
+    "time": 24.009999999999998,
+    "file": "v12\\qa_encoded_flight_0_2.jpg"
+  },
+  {
+    "name": "PDOOM 1",
+    "time": 24.685,
+    "file": "v12\\qa_encoded_flight_0_3.jpg"
+  },
+  {
+    "name": "PDOOM 2",
+    "time": 60.135,
+    "file": "v12\\qa_encoded_flight_1_0.jpg"
+  },
+  {
+    "name": "PDOOM 2",
+    "time": 60.199999999999996,
+    "file": "v12\\qa_encoded_flight_1_1.jpg"
+  },
+  {
+    "name": "PDOOM 2",
+    "time": 60.269999999999996,
+    "file": "v12\\qa_encoded_flight_1_2.jpg"
+  },
+  {
+    "name": "PDOOM 2",
+    "time": 60.945,
+    "file": "v12\\qa_encoded_flight_1_3.jpg"
+  },
+  {
+    "name": "PDOOM 3",
+    "time": 96.485,
+    "file": "v12\\qa_encoded_flight_2_0.jpg"
+  },
+  {
+    "name": "PDOOM 3",
+    "time": 96.58,
+    "file": "v12\\qa_encoded_flight_2_1.jpg"
+  },
+  {
+    "name": "PDOOM 3",
+    "time": 96.65,
+    "file": "v12\\qa_encoded_flight_2_2.jpg"
+  },
+  {
+    "name": "PDOOM 3",
+    "time": 97.325,
+    "file": "v12\\qa_encoded_flight_2_3.jpg"
+  },
+  {
+    "name": "PDOOM 4",
+    "time": 125.61,
+    "file": "v12\\qa_encoded_flight_3_0.jpg"
+  },
+  {
+    "name": "PDOOM 4",
+    "time": 125.76,
+    "file": "v12\\qa_encoded_flight_3_1.jpg"
+  },
+  {
+    "name": "PDOOM 4",
+    "time": 125.83000000000001,
+    "file": "v12\\qa_encoded_flight_3_2.jpg"
+  },
+  {
+    "name": "PDOOM 4",
+    "time": 126.50500000000001,
+    "file": "v12\\qa_encoded_flight_3_3.jpg"
+  }
+]

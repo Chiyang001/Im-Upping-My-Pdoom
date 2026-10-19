@@ -1,0 +1,12 @@
+from pathlib import Path
+p=Path('v4/render.py');s=p.read_text(encoding='utf-8-sig').replace('import moderngl as gl','import moderngl as gl\nimport imageio_ffmpeg')
+s=s.replace("S[6]=[('Trapped in the',20,0,4,-6,0,0,0),('Chinese room',25,-7,-.7,-5,1.05,0,0),('with a bag of shrooms',27,6,-2,-6,-1.05,0,0)]", "S[6]=[('Trapped in the',18,0,4,-8,0,0,0),('Chinese room',18,-4,1,-8,.6,0,0),('with a bag of shrooms',21,4,-3,-10,-.6,0,0)]")
+s=s.replace("C if ('P(DOOM)' in word or word in ['AGI','1E30','CDR','LIES','ASKEW','FOOM']) else WHITE", "C if 'P(DOOM)' in word else ACC if word in ['AGI','1E30','CDR','LIES','ASKEW','FOOM'] else WHITE")
+s=s.replace("gain=.34 if since<-.04", "gain=.48 if since<-.04")
+s=s.replace(".44,1);gpu.draw", ".50,1);gpu.draw")
+s=s.replace("CAM[6]=([0,1,16],[2,0,10],[0,0,-12],.08,66)", "CAM[6]=([0,1,18],[2,0,14],[0,0,-12],.08,66)")
+s=s.replace("gain=.6)\n  endtitle.draw", "gain=.6*max(0,1-(outro-11)/3))\n  endtitle.draw")
+s=s.replace("gain=1.5,reveal=min(1,outro/.8)", "gain=1.5*max(0,min(1,(DUR-t)/.6)),reveal=min(1,outro/.8)")
+s=s.replace("endclaim.draw(tr(0,-2.5,3),vp,t,hit,gain=1.1)", "endclaim.draw(tr(0,-2.5,3),vp,t,hit,gain=1.1*max(0,min(1,(DUR-t)/.6)))")
+s=s.replace("endname.draw(tr(0,-4.8,3),vp,t,hit,gain=1.1)", "endname.draw(tr(0,-4.8,3),vp,t,hit,gain=1.1*max(0,min(1,(DUR-t)/.6)))")
+p.write_text(s,encoding='utf-8')

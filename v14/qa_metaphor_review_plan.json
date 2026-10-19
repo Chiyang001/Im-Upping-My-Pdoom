@@ -1,0 +1,108 @@
+[
+  {
+    "name": "Chinese room",
+    "times": [
+      26.28,
+      26.95,
+      27.45,
+      28.15,
+      29.2
+    ],
+    "observable": [
+      "Room outline and two distinct slot mechanisms",
+      "Input cards become rule-matched output cards",
+      "Camera enters slot with parallax"
+    ],
+    "reject": "Only a generic tunnel or Chinese architecture"
+  },
+  {
+    "name": "Shoggoth",
+    "times": [
+      29.9,
+      30.55,
+      31.0,
+      31.6
+    ],
+    "observable": [
+      "Friendly front face with definite eyes and mouth",
+      "Face halves separate in opposite directions",
+      "Tendrils or eye organs occupy the exposed back"
+    ],
+    "reject": "Mask remains intact throughout or is hidden by line noise"
+  },
+  {
+    "name": "Sharp left turn",
+    "times": [
+      80.95,
+      81.9,
+      82.4,
+      83.9
+    ],
+    "observable": [
+      "Constraint cage and moving capability initially coincide",
+      "Moving structure takes a new direction",
+      "Constraint cage is visibly left behind"
+    ],
+    "reject": "Camera turns but relationship of objects never changes"
+  },
+  {
+    "name": "Paperclip",
+    "times": [
+      96.85,
+      97.25,
+      97.8,
+      98.3
+    ],
+    "observable": [
+      "Recognizable source objects and target paperclip",
+      "Source objects shrink or stretch toward mechanism",
+      "New clips multiply from the converted material"
+    ],
+    "reject": "Pre-existing clips only spin in place"
+  },
+  {
+    "name": "Orthogonality",
+    "times": [
+      104.8,
+      106.0,
+      107.1,
+      108.6
+    ],
+    "observable": [
+      "Two perpendicular independent axes with right-angle bracket",
+      "Ability complexity or height increases",
+      "Goal stays fixed on same small paperclip"
+    ],
+    "reject": "Both axes scale together or target changes with ability"
+  },
+  {
+    "name": "Post Chinchilla",
+    "times": [
+      115.2,
+      116.2,
+      117.1,
+      118.1
+    ],
+    "observable": [
+      "Sparse large model lattice",
+      "Multiple denser data streams enter a tightened lattice",
+      "New lattice crosses separate safety fences"
+    ],
+    "reject": "Just a rodent outline or generic fence explosion"
+  },
+  {
+    "name": "Recursive upgrade",
+    "times": [
+      128.6,
+      129.9,
+      130.5,
+      131.2
+    ],
+    "observable": [
+      "One maker structure fabricates an improved nested maker",
+      "Child begins producing a next generation before handoff",
+      "Camera moves through multiple generations"
+    ],
+    "reject": "Same concentric ring zoom with no maker-child action"
+  }
+]

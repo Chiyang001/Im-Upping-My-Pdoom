@@ -1,0 +1,11 @@
+import json, pathlib
+lines=[
+(1.4,5.3,0,'I see sparks of AGI|in your eyes','AGI'),(5.3,8.9,1,"Your circuits make me nervous|that's no surprise",'NERVOUS'),(8.9,12.9,2,'There was a sudden drop|in your training loss','TRAINING LOSS'),(12.9,16.4,1,"Now I'm your servant|and you're my boss",'BOSS'),(16.4,21.8,0,"ChatGPT, please|don't eat me alive",'CHATGPT'),
+(21.8,25.8,2,"I'm upping my P(doom)|'cause the future goes foom",'P(doom)'),(25.8,29.6,3,'Trapped in the Chinese room|with a bag of shrooms','CHINESE ROOM'),(29.6,32.5,4,"See through the shoggoth's lies",'LIES'),(32.5,36.5,0,'With your Shinigami eyes','SHINIGAMI'),
+(38.4,41.6,1,'We had a stable training run','STABLE'),(41.6,44.7,2,"But now the singularity's begun",'SINGULARITY'),(44.7,48.7,6,"And you're optimizing, accelerating",'ACCELERATING'),(48.7,53.4,5,'I feel my atoms rearranging','ATOMS'),(53.4,57.9,3,'Sydney, please let me free','SYDNEY'),
+(57.9,62.2,6,"I'm upping my P(doom)|I hear the basilisk boom",'P(doom)'),(62.2,65.9,2,"NVDA to the moon|the Omega Point's coming soon",'OMEGA'),(65.9,69.0,6,'1e30 flops a second','1e30'),(69.,73.4,1,'"That was safe enough"|we reckoned','SAFE ENOUGH'),
+(73.9,77.2,1,'Forward MLP, backward, repeat','REPEAT'),(77.2,80.7,5,"Now von Neumann's obsolete",'OBSOLETE'),(80.7,84.1,2,'Sharp left turn and there you are','LEFT TURN'),(84.1,88.7,3,'Without a single CDR','CDR'),(89.8,93.3,4,"Gato, please don't let me go",'GATO'),
+(93.3,97.8,7,"I'm upping my P(doom)|as paperclips fill the room",'P(doom)'),(97.8,101.8,3,"Killswitch guys on PTO|now there's nowhere left to go",'NOWHERE'),(101.8,104.6,6,'Too late now, we lit the fuse','FUSE'),(104.6,109.0,5,'Orthogonality thesis blues','BLUES'),
+(109.,113.3,1,'"Just transformers all the way"|\'til you learned to disobey','DISOBEY'),(113.3,117.8,3,'Post-Chinchilla, super-dense|breaking through each safety fence','BREAKING'),(117.8,122.8,4,'Hundred thousand GPU|RLHF goes askew','ASKEW'),
+(122.8,126.9,6,"I'm upping my P(doom)|just as foretold by Loom",'P(doom)'),(126.9,130.3,2,'From masked pre-training days|to recursive self-upgrade','UPGRADE'),(130.3,134.1,8,"What did Ilya see?|We'll never know",'ILYA'),(134.1,139.0,8,'Was it all for show?','SHOW?')]
+json.dump(lines,open('work/lyrics.json','w'),indent=2)

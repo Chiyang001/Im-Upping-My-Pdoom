@@ -1,0 +1,292 @@
+{
+  "events": [
+    {
+      "time": 22.19,
+      "kind": "occlusion",
+      "frames": 6,
+      "direction": 1,
+      "axis": "x",
+      "label": "jaw / city",
+      "motive": "Jaw crosses the lens; emerge below the machine city.",
+      "group": 5,
+      "ownership_at": 22.2,
+      "guard_index": 4,
+      "guard_until": 22.2,
+      "anchor": [
+        0.53,
+        0.46
+      ],
+      "t": 22.19
+    },
+    {
+      "time": 25.685,
+      "kind": "crash",
+      "frames": 6,
+      "direction": 1,
+      "axis": "z",
+      "label": "FOOM / room",
+      "motive": "FOOM expands the machine; pass through its opening into the room.",
+      "group": 6,
+      "ownership_at": 26.06,
+      "guard_index": 5,
+      "guard_until": 26.06,
+      "anchor": [
+        0.51,
+        0.48
+      ],
+      "t": 25.685
+    },
+    {
+      "time": 38.19,
+      "kind": "match",
+      "frames": 3,
+      "direction": -1,
+      "axis": "y",
+      "label": "eye / training ring",
+      "motive": "The eye ring becomes an overhead training conveyor.",
+      "group": 9,
+      "ownership_at": 38.19,
+      "guard_index": 9,
+      "guard_until": 41.16,
+      "anchor": [
+        0.47,
+        0.49
+      ],
+      "t": 38.19
+    },
+    {
+      "time": 42.05,
+      "kind": "crash",
+      "frames": 7,
+      "direction": -1,
+      "axis": "z",
+      "label": "stable / singularity",
+      "motive": "The stable plane collapses; cut underneath the singularity.",
+      "group": 10,
+      "ownership_at": 42.05,
+      "guard_index": 10,
+      "guard_until": 44.72,
+      "anchor": [
+        0.49,
+        0.51
+      ],
+      "t": 42.05
+    },
+    {
+      "time": 53.885,
+      "kind": "occlusion",
+      "frames": 6,
+      "direction": -1,
+      "axis": "x",
+      "label": "atoms / prison",
+      "motive": "Rearranged atom bars pass close to reveal the prison side.",
+      "group": 13,
+      "ownership_at": 53.885,
+      "guard_index": 13,
+      "guard_until": 58.4,
+      "anchor": [
+        0.52,
+        0.47
+      ],
+      "t": 53.885
+    },
+    {
+      "time": 58.43,
+      "kind": "whip",
+      "frames": 7,
+      "direction": 1,
+      "axis": "y",
+      "label": "prison / basilisk",
+      "motive": "The signal escapes upward; reveal the basilisk from below.",
+      "group": 14,
+      "ownership_at": 58.43,
+      "guard_index": 14,
+      "guard_until": 62.34,
+      "anchor": [
+        0.52,
+        0.45
+      ],
+      "t": 58.43
+    },
+    {
+      "time": 73.87,
+      "kind": "match",
+      "frames": 3,
+      "direction": 1,
+      "axis": "x",
+      "label": "approval / feedback",
+      "motive": "Approval grid lines match to the feedback rail.",
+      "group": 18,
+      "ownership_at": 73.96,
+      "guard_index": 17,
+      "guard_until": 73.96,
+      "anchor": [
+        0.48,
+        0.5
+      ],
+      "t": 73.87
+    },
+    {
+      "time": 82.05,
+      "kind": "whip",
+      "frames": 6,
+      "direction": -1,
+      "axis": "x",
+      "label": "sharp left turn",
+      "motive": "The red signal takes a sharp left; change viewpoint across its path.",
+      "group": 20,
+      "ownership_at": 82.05,
+      "guard_index": 20,
+      "guard_until": 84.72,
+      "anchor": [
+        0.46,
+        0.5
+      ],
+      "t": 82.05
+    },
+    {
+      "time": 95.91,
+      "kind": "match",
+      "frames": 4,
+      "direction": 1,
+      "axis": "y",
+      "label": "grip / conveyor",
+      "motive": "Gato releases the same signal into the paperclip conveyor.",
+      "group": 23,
+      "ownership_at": 95.91,
+      "guard_index": 23,
+      "guard_until": 98.7,
+      "anchor": [
+        0.52,
+        0.48
+      ],
+      "t": 95.91
+    },
+    {
+      "time": 103.42,
+      "kind": "crash",
+      "frames": 6,
+      "direction": 1,
+      "axis": "z",
+      "label": "fuse / orthogonal machine",
+      "motive": "Race along the burning fuse into the orthogonal machine.",
+      "group": 25,
+      "ownership_at": 103.42,
+      "guard_index": 25,
+      "guard_until": 104.54,
+      "anchor": [
+        0.51,
+        0.47
+      ],
+      "t": 103.42
+    },
+    {
+      "time": 109.33,
+      "kind": "occlusion",
+      "frames": 6,
+      "direction": 1,
+      "axis": "x",
+      "label": "machine joint / disobedience",
+      "motive": "A mechanical joint sweeps past; see the apparatus from its reverse.",
+      "group": 27,
+      "ownership_at": 109.4,
+      "guard_index": 26,
+      "guard_until": 109.4,
+      "anchor": [
+        0.48,
+        0.52
+      ],
+      "t": 109.33
+    },
+    {
+      "time": 116.595,
+      "kind": "shatter",
+      "frames": 7,
+      "direction": -1,
+      "axis": "diag",
+      "label": "fence / GPU field",
+      "motive": "The fence breaks across the lens and exposes the dense GPU field.",
+      "group": 28,
+      "ownership_at": 116.595,
+      "guard_index": 28,
+      "guard_until": 118.7,
+      "anchor": [
+        0.54,
+        0.49
+      ],
+      "t": 116.595
+    },
+    {
+      "time": 123.87,
+      "kind": "match",
+      "frames": 4,
+      "direction": -1,
+      "axis": "y",
+      "label": "GPU grid / loom",
+      "motive": "GPU interconnects match to the loom's warp and weft.",
+      "group": 30,
+      "ownership_at": 124.04,
+      "guard_index": 30,
+      "guard_until": 127.9,
+      "anchor": [
+        0.48,
+        0.48
+      ],
+      "t": 123.87
+    },
+    {
+      "time": 129.325,
+      "kind": "crash",
+      "frames": 6,
+      "direction": 1,
+      "axis": "z",
+      "label": "recursive aperture",
+      "motive": "Go through a glyph aperture into the next recursive layer.",
+      "group": 31,
+      "ownership_at": 129.325,
+      "guard_index": 31,
+      "guard_until": 131.46,
+      "anchor": [
+        0.51,
+        0.49
+      ],
+      "t": 129.325
+    },
+    {
+      "time": 133.43,
+      "kind": "match",
+      "frames": 3,
+      "direction": 1,
+      "axis": "x",
+      "label": "eye / observer",
+      "motive": "The eye ring matches the observer's opening at the theatre wing.",
+      "group": 32,
+      "ownership_at": 133.43,
+      "guard_index": 32,
+      "guard_until": 135.9,
+      "anchor": [
+        0.47,
+        0.48
+      ],
+      "t": 133.43
+    },
+    {
+      "time": 141.14,
+      "kind": "pullback",
+      "frames": 5,
+      "direction": -1,
+      "axis": "z",
+      "label": "world / whole machine",
+      "motive": "Cut back in scale to reveal the complete machine around the world.",
+      "group": 32,
+      "ownership_at": 141.2,
+      "guard_index": 33,
+      "guard_until": 141.2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "t": 141.14
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Tested rendering environment: Python 3.13, Windows, OpenGL 3.3+.
+numpy==2.5.3
+moderngl==5.12.0
+glcontext==3.0.0
+imageio-ffmpeg==0.6.0
+Pillow==11.3.0
+fonttools==4.67.0
+shapely==2.2.0
+mapbox-earcut==2.1.0

@@ -1,0 +1,562 @@
+{
+  "events": [
+    {
+      "time": 5.7,
+      "kind": "match",
+      "frames": 3,
+      "direction": 1,
+      "axis": "x",
+      "label": "spark / circuit",
+      "motive": "The eye spark becomes current; track sideways through its circuit.",
+      "group": 1,
+      "ownership_at": 5.7,
+      "guard_index": 1,
+      "guard_until": 9.08,
+      "anchor": [
+        0.48,
+        0.48
+      ],
+      "t": 5.7
+    },
+    {
+      "time": 9.1,
+      "kind": "crash",
+      "frames": 4,
+      "direction": -1,
+      "axis": "y",
+      "label": "current / loss cliff",
+      "motive": "Current drops down the training-loss cliff; follow from above.",
+      "group": 2,
+      "ownership_at": 9.1,
+      "guard_index": 2,
+      "guard_until": 12.94,
+      "anchor": [
+        0.52,
+        0.46
+      ],
+      "t": 9.1
+    },
+    {
+      "time": 12.99,
+      "kind": "match",
+      "frames": 3,
+      "direction": 1,
+      "axis": "x",
+      "label": "loss cliff / boss bridge",
+      "motive": "The loss trace becomes the bosses bridge; cross below its command.",
+      "group": 3,
+      "ownership_at": 12.99,
+      "guard_index": 3,
+      "guard_until": 16.2,
+      "anchor": [
+        0.49,
+        0.48
+      ],
+      "t": 12.99
+    },
+    {
+      "time": 17.07,
+      "kind": "occlusion",
+      "frames": 5,
+      "direction": 1,
+      "axis": "x",
+      "label": "boss bridge / jaw",
+      "motive": "The boss bridge closes across the lens and becomes a devouring jaw.",
+      "group": 4,
+      "ownership_at": 17.07,
+      "guard_index": 4,
+      "guard_until": 22.2,
+      "anchor": [
+        0.53,
+        0.46
+      ],
+      "t": 17.07
+    },
+    {
+      "time": 22.19,
+      "kind": "occlusion",
+      "frames": 5,
+      "direction": 1,
+      "axis": "x",
+      "label": "jaw / city",
+      "motive": "Jaw teeth cross the lens; emerge at street level inside the city.",
+      "group": 5,
+      "ownership_at": 22.2,
+      "guard_index": 4,
+      "guard_until": 22.2,
+      "anchor": [
+        0.53,
+        0.46
+      ],
+      "t": 22.19
+    },
+    {
+      "time": 25.685,
+      "kind": "crash",
+      "frames": 5,
+      "direction": 1,
+      "axis": "z",
+      "label": "FOOM / room",
+      "motive": "The FOOM shockwave opens the room; race through its aperture.",
+      "group": 6,
+      "ownership_at": 26.06,
+      "guard_index": 5,
+      "guard_until": 26.06,
+      "anchor": [
+        0.51,
+        0.48
+      ],
+      "t": 25.685
+    },
+    {
+      "time": 31.83,
+      "kind": "match",
+      "frames": 3,
+      "direction": -1,
+      "axis": "x",
+      "label": "lies / seeing eye",
+      "motive": "Shoggoth filaments match the eye iris; cross to its seeing side.",
+      "group": 8,
+      "ownership_at": 31.83,
+      "guard_index": 8,
+      "guard_until": 36.5,
+      "anchor": [
+        0.47,
+        0.48
+      ],
+      "t": 31.83
+    },
+    {
+      "time": 38.19,
+      "kind": "match",
+      "frames": 3,
+      "direction": -1,
+      "axis": "y",
+      "label": "eye / training ring",
+      "motive": "The iris ring becomes an overhead factory conveyor.",
+      "group": 9,
+      "ownership_at": 38.19,
+      "guard_index": 9,
+      "guard_until": 41.16,
+      "anchor": [
+        0.47,
+        0.49
+      ],
+      "t": 38.19
+    },
+    {
+      "time": 42.05,
+      "kind": "crash",
+      "frames": 5,
+      "direction": -1,
+      "axis": "z",
+      "label": "stable / singularity",
+      "motive": "The stable factory plane folds; dive underneath its singularity.",
+      "group": 10,
+      "ownership_at": 42.05,
+      "guard_index": 10,
+      "guard_until": 44.72,
+      "anchor": [
+        0.49,
+        0.51
+      ],
+      "t": 42.05
+    },
+    {
+      "time": 44.79,
+      "kind": "whip",
+      "frames": 4,
+      "direction": 1,
+      "axis": "x",
+      "label": "singularity / acceleration",
+      "motive": "Compressed singularity rails become a high-speed acceleration lane.",
+      "group": 11,
+      "ownership_at": 44.79,
+      "guard_index": 11,
+      "guard_until": 48.64,
+      "anchor": [
+        0.52,
+        0.49
+      ],
+      "t": 44.79
+    },
+    {
+      "time": 48.645,
+      "kind": "shatter",
+      "frames": 5,
+      "direction": -1,
+      "axis": "diag",
+      "label": "speed / rearranged atoms",
+      "motive": "A speeding rail breaks into atoms; follow the same red carrier.",
+      "group": 12,
+      "ownership_at": 48.645,
+      "guard_index": 12,
+      "guard_until": 52.56,
+      "anchor": [
+        0.49,
+        0.48
+      ],
+      "t": 48.645
+    },
+    {
+      "time": 53.885,
+      "kind": "occlusion",
+      "frames": 5,
+      "direction": -1,
+      "axis": "x",
+      "label": "atoms / prison",
+      "motive": "Rearranged atoms form bars that sweep past to reveal the prisoner.",
+      "group": 13,
+      "ownership_at": 53.885,
+      "guard_index": 13,
+      "guard_until": 58.4,
+      "anchor": [
+        0.52,
+        0.47
+      ],
+      "t": 53.885
+    },
+    {
+      "time": 58.43,
+      "kind": "whip",
+      "frames": 5,
+      "direction": 1,
+      "axis": "y",
+      "label": "prison / basilisk",
+      "motive": "The signal escapes upward; reveal the basilisk from below.",
+      "group": 14,
+      "ownership_at": 58.43,
+      "guard_index": 14,
+      "guard_until": 62.34,
+      "anchor": [
+        0.52,
+        0.45
+      ],
+      "t": 58.43
+    },
+    {
+      "time": 65.92,
+      "kind": "match",
+      "frames": 3,
+      "direction": -1,
+      "axis": "x",
+      "label": "ascent / compute grid",
+      "motive": "The Omega ascent tracks match the expanding computation lattice.",
+      "group": 16,
+      "ownership_at": 65.94,
+      "guard_index": 15,
+      "guard_until": 65.94,
+      "anchor": [
+        0.48,
+        0.49
+      ],
+      "t": 65.92
+    },
+    {
+      "time": 68.185,
+      "kind": "occlusion",
+      "frames": 4,
+      "direction": 1,
+      "axis": "y",
+      "label": "compute / safety stamp",
+      "motive": "A computation panel sweeps up to expose its safety approval.",
+      "group": 17,
+      "ownership_at": 68.2,
+      "guard_index": 16,
+      "guard_until": 68.2,
+      "anchor": [
+        0.5,
+        0.51
+      ],
+      "t": 68.185
+    },
+    {
+      "time": 73.87,
+      "kind": "match",
+      "frames": 3,
+      "direction": 1,
+      "axis": "x",
+      "label": "approval / feedback",
+      "motive": "Approval grid lines become the forward/backward feedback rail.",
+      "group": 18,
+      "ownership_at": 73.96,
+      "guard_index": 17,
+      "guard_until": 73.96,
+      "anchor": [
+        0.48,
+        0.5
+      ],
+      "t": 73.87
+    },
+    {
+      "time": 77.24,
+      "kind": "occlusion",
+      "frames": 4,
+      "direction": -1,
+      "axis": "x",
+      "label": "feedback / obsolete rig",
+      "motive": "The returning signal passes a beam and reveals the abandoned rig.",
+      "group": 19,
+      "ownership_at": 77.34,
+      "guard_index": 18,
+      "guard_until": 77.34,
+      "anchor": [
+        0.49,
+        0.48
+      ],
+      "t": 77.24
+    },
+    {
+      "time": 82.05,
+      "kind": "whip",
+      "frames": 5,
+      "direction": -1,
+      "axis": "x",
+      "label": "sharp left turn",
+      "motive": "The signal turns sharply left; cut across its path and keep moving.",
+      "group": 20,
+      "ownership_at": 82.05,
+      "guard_index": 20,
+      "guard_until": 84.72,
+      "anchor": [
+        0.46,
+        0.5
+      ],
+      "t": 82.05
+    },
+    {
+      "time": 84.78,
+      "kind": "match",
+      "frames": 3,
+      "direction": 1,
+      "axis": "y",
+      "label": "turn / missing CDR",
+      "motive": "The turning rail becomes a broken boundary with its centre missing.",
+      "group": 21,
+      "ownership_at": 84.78,
+      "guard_index": 21,
+      "guard_until": 88.8,
+      "anchor": [
+        0.51,
+        0.47
+      ],
+      "t": 84.78
+    },
+    {
+      "time": 89.995,
+      "kind": "occlusion",
+      "frames": 5,
+      "direction": 1,
+      "axis": "x",
+      "label": "boundary / Gato grip",
+      "motive": "The broken boundary becomes Gato fingers closing around the signal.",
+      "group": 22,
+      "ownership_at": 89.995,
+      "guard_index": 22,
+      "guard_until": 94.86,
+      "anchor": [
+        0.52,
+        0.48
+      ],
+      "t": 89.995
+    },
+    {
+      "time": 95.91,
+      "kind": "match",
+      "frames": 3,
+      "direction": 1,
+      "axis": "y",
+      "label": "grip / conveyor",
+      "motive": "Gato releases the signal into the paperclip conveyor below.",
+      "group": 23,
+      "ownership_at": 95.91,
+      "guard_index": 23,
+      "guard_until": 98.7,
+      "anchor": [
+        0.52,
+        0.48
+      ],
+      "t": 95.91
+    },
+    {
+      "time": 98.845,
+      "kind": "whip",
+      "frames": 4,
+      "direction": -1,
+      "axis": "x",
+      "label": "factory / empty killswitch",
+      "motive": "Race from the multiplying clips to an unattended shutdown station.",
+      "group": 24,
+      "ownership_at": 98.845,
+      "guard_index": 24,
+      "guard_until": 102.32,
+      "anchor": [
+        0.47,
+        0.5
+      ],
+      "t": 98.845
+    },
+    {
+      "time": 104.33,
+      "kind": "crash",
+      "frames": 5,
+      "direction": 1,
+      "axis": "z",
+      "label": "fuse / orthogonal machine",
+      "motive": "The burning fuse pulls us through the axis of the orthogonal machine.",
+      "group": 26,
+      "ownership_at": 104.54,
+      "guard_index": 25,
+      "guard_until": 104.54,
+      "anchor": [
+        0.51,
+        0.47
+      ],
+      "t": 104.33
+    },
+    {
+      "time": 109.33,
+      "kind": "occlusion",
+      "frames": 5,
+      "direction": 1,
+      "axis": "x",
+      "label": "machine joint / disobedience",
+      "motive": "A machine joint passes close; reveal the apparatus from its reverse.",
+      "group": 27,
+      "ownership_at": 109.4,
+      "guard_index": 26,
+      "guard_until": 109.4,
+      "anchor": [
+        0.48,
+        0.52
+      ],
+      "t": 109.33
+    },
+    {
+      "time": 116.595,
+      "kind": "shatter",
+      "frames": 6,
+      "direction": -1,
+      "axis": "diag",
+      "label": "fence / broken safety",
+      "motive": "The safety fence breaks toward the lens and exposes its dense core.",
+      "group": 28,
+      "ownership_at": 116.595,
+      "guard_index": 28,
+      "guard_until": 118.7,
+      "anchor": [
+        0.54,
+        0.49
+      ],
+      "t": 116.595
+    },
+    {
+      "time": 118.645,
+      "kind": "match",
+      "frames": 3,
+      "direction": 1,
+      "axis": "x",
+      "label": "fragments / GPU array",
+      "motive": "Fence fragments match GPU interconnects; sweep across their banks.",
+      "group": 29,
+      "ownership_at": 118.7,
+      "guard_index": 28,
+      "guard_until": 118.7,
+      "anchor": [
+        0.48,
+        0.48
+      ],
+      "t": 118.645
+    },
+    {
+      "time": 123.87,
+      "kind": "match",
+      "frames": 3,
+      "direction": -1,
+      "axis": "y",
+      "label": "GPU grid / loom",
+      "motive": "GPU interconnects become warp and weft in the prophetic loom.",
+      "group": 30,
+      "ownership_at": 124.04,
+      "guard_index": 29,
+      "guard_until": 123.3,
+      "anchor": [
+        0.48,
+        0.48
+      ],
+      "t": 123.87
+    },
+    {
+      "time": 127.96,
+      "kind": "crash",
+      "frames": 5,
+      "direction": 1,
+      "axis": "z",
+      "label": "loom / recursive upgrade",
+      "motive": "The loom opens a glyph aperture; race into its recursive layer.",
+      "group": 31,
+      "ownership_at": 127.96,
+      "guard_index": 31,
+      "guard_until": 131.46,
+      "anchor": [
+        0.51,
+        0.49
+      ],
+      "t": 127.96
+    },
+    {
+      "time": 133.43,
+      "kind": "match",
+      "frames": 3,
+      "direction": 1,
+      "axis": "x",
+      "label": "eye / observer",
+      "motive": "The eye ring matches the observers opening at the theatre wing.",
+      "group": 32,
+      "ownership_at": 133.43,
+      "guard_index": 32,
+      "guard_until": 135.9,
+      "anchor": [
+        0.47,
+        0.48
+      ],
+      "t": 133.43
+    },
+    {
+      "time": 136.83,
+      "kind": "occlusion",
+      "frames": 4,
+      "direction": -1,
+      "axis": "y",
+      "label": "observer / theatre show",
+      "motive": "The observer lid rises like a theatre curtain and reveals the stage.",
+      "group": 33,
+      "ownership_at": 136.9,
+      "guard_index": 32,
+      "guard_until": 135.9,
+      "anchor": [
+        0.5,
+        0.48
+      ],
+      "t": 136.83
+    },
+    {
+      "time": 141.14,
+      "kind": "pullback",
+      "frames": 5,
+      "direction": -1,
+      "axis": "z",
+      "label": "world / whole machine",
+      "motive": "Pull outside the stage: the complete machine surrounds the world.",
+      "group": 33,
+      "ownership_at": 141.2,
+      "guard_index": 33,
+      "guard_until": 141.2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "t": 141.14
+    }
+  ]
+}

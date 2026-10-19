@@ -1,0 +1,86 @@
+{
+  "policy": "All scenes are artistic interpretations of the lyrics. Thought experiments, risk models, and memes are not presented as established events. No explanatory on-screen captions are required.",
+  "concepts": [
+    {
+      "id": "chinese_room",
+      "line_index": 6,
+      "interval": [26.06, 29.68],
+      "focus_interval": [26.96, 27.8],
+      "meaning_zh": "不懂中文的房内人按规则搬运符号，仍可能产生貌似流利的输出；Searle借此讨论符号操作与理解的区别，是有争论的哲学论证。",
+      "geometry_action_zh": "封闭六面体有输入/输出纸槽，机械臂把不规则线片与镂空规则模板匹配；镜头追随符片穿槽，看到房内闭环规则机器。",
+      "guardrail_zh": "不把中文房间当成机器不可能理解的既定证明，不只画中式建筑。",
+      "sources": ["https://cse.buffalo.edu/~rapaport/Papers/Papers.by.Others/Searle/searle80.html"]
+    },
+    {
+      "id": "shoggoth_rlhf",
+      "line_indices": [7, 29],
+      "intervals": [[29.68, 31.78], [118.7, 123.3]],
+      "focus_intervals": [[30.58, 31.78], [120.18, 122.54]],
+      "meaning_zh": "笑脸面具与陌生、难理解的内部是网络梗的视觉隐喻。RLHF实际是用人的反馈改进模型行为，不能被技术性地归结为只贴面具。",
+      "geometry_action_zh": "镜头穿过小笑脸双眼，薄壳滑到身后，露出巨大异质神经丛和机械虹膜；RLHF段奖励环试图压合成笑脸，askew时反馈绕回评分器、偏轴失稳。",
+      "guardrail_zh": "不宣称真实模型内部有恶意生物，不宣称RLHF只改变表面；原始梗图链接本轮读取失败，未声称直接核对原图。",
+      "sources": ["https://www.hplovecraft.com/writings/texts/fiction/mm.aspx", "https://arxiv.org/abs/2203.02155"],
+      "unavailable_primary_meme_url": "https://x.com/TetraspaceWest/status/1608966939929636864"
+    },
+    {
+      "id": "sharp_left_turn",
+      "line_index": 20,
+      "interval": [80.68, 84.72],
+      "focus_interval": [81.62, 82.46],
+      "meaning_zh": "Soares风险模型关注能力在训练域外泛化、先前的对齐性质却未跟随泛化。原文明确它不等于递归自我改进。",
+      "geometry_action_zh": "青色约束笼与红色能力骨架同轨前进；left/turn时红骨架沿90度立体分岔轨穿出，青笼留在旧轨，镜头追随红骨架并短暂回望旧笼。",
+      "guardrail_zh": "表达风险模型而非已证实必然发生的过程；不仅做字面的左转。",
+      "sources": ["https://www.alignmentforum.org/posts/GNhMPAWcfBCASy8e6/a-central-ai-alignment-problem-capabilities-generalization"]
+    },
+    {
+      "id": "paperclip_maximizer",
+      "line_index": 23,
+      "interval": [94.86, 98.7],
+      "focus_interval": [96.92, 98.7],
+      "meaning_zh": "只最大化回形针的强大系统可能把世界转为生产设施，表现最终目标与人类价值偏离的风险；无需假设仇恨。",
+      "geometry_action_zh": "目标夹具里的一枚小回形针不动；城市梁柱、门框、电缆被拉成丝并弯折复制，连安全围栏也变成回形针，镜头穿小内环后进入巨型加工通道。",
+      "guardrail_zh": "这是思想实验，不暗示现有模型已经在计划此事。",
+      "sources": ["https://nickbostrom.com/papers/ethical-issues-in-advanced-ai/"]
+    },
+    {
+      "id": "orthogonality",
+      "line_index": 26,
+      "interval": [104.54, 109.4],
+      "focus_interval": [104.54, 107.28],
+      "meaning_zh": "能力水平与最终目标原则上可以独立变化，强大推理可以服务不同目标；变聪明不自动变得关心人类价值。",
+      "geometry_action_zh": "竖直能力脊柱不断增高且复杂化，水平目标指针却始终指向微小回形针；侧飞揭示同高的另两条脊柱各指向花朵与计算环，随后下潜回红色目标针。",
+      "guardrail_zh": "不表示更聪明必然更坏，也不表示任意目标容易植入。",
+      "sources": ["https://nickbostrom.com/superintelligentwill.pdf"]
+    },
+    {
+      "id": "chinchilla",
+      "line_index": 28,
+      "interval": [115.0, 118.7],
+      "focus_interval": [115.0, 116.88],
+      "meaning_zh": "Chinchilla研究固定算力下参数量与训练数据的较优分配，70B模型用比Gopher多4倍数据训练并取得更强结果。",
+      "geometry_action_zh": "庞大稀疏空心机芯收紧，四股数据符片河汇入，节点变为紧密晶格；镜头从大空腔追入微小通道，新晶格随后撞开歌词中的多层安全栅。",
+      "guardrail_zh": "不把Chinchilla论文当成能力提升必然失控的证明，突破栅栏是歌词科幻演绎。",
+      "sources": ["https://arxiv.org/abs/2203.15556"]
+    },
+    {
+      "id": "recursive_upgrade",
+      "line_index": 31,
+      "interval": [127.9, 131.46],
+      "focus_interval": [129.98, 131.46],
+      "meaning_zh": "Good设想足够强的机器可能设计更好的机器，而新机器又提升下一轮设计能力；无限或快速升级在本片中是科幻情景。",
+      "geometry_action_zh": "机械环在内部装配更精密的同类环，第二环未闭合便开始造第三环，外部维修臂缩回，由新环给自己焊接下一代；镜头逐代穿入已成为工厂的环心。",
+      "guardrail_zh": "不声称现实已实现无限递归升级，不与sharp-left-turn混成同一概念。",
+      "sources": ["https://gwern.net/doc/ai/1966-good.pdf", "https://doi.org/10.1016/S0065-2458%2808%2960418-0"]
+    }
+  ],
+  "ilya_boundary": {
+    "line_index": 32,
+    "interval": [131.46, 135.9],
+    "direction_zh": "保留What did Ilya see?的疑问；观测窗折叠为反射空间，呈现观察者映像或缺失图像，不显示所谓内部AGI秘密，不捏造Ilya经历。"
+  },
+  "deprioritized": [
+    {"id": "basilisk", "reason_zh": "原帖未在本轮直接核对，决策论恐吓梗不应被叙事化为既定AI追杀；可保留神话蛇眼视觉。"},
+    {"id": "omega_point", "reason_zh": "歌词语境不足以区分不同思想传统的Omega Point，保留抽象汇聚，不宣称具体宇宙学或宗教预言。"}
+  ],
+  "continuity_zh": "同一红线从符片边缘、笑脸后的神经纤维、逃离约束的轨道，变为抽丝回形针生产线、最终目标指针与递归工厂焊接光；青色承担人类规则与反馈。每次穿越传递前一场的物体和因果。"
+}
