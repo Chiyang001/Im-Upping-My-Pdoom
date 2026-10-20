@@ -1,4 +1,4 @@
-# I'm Upping My P(doom) — First Half Alchemy
+# I'm Upping My P(doom) — Object Pursuit
 
 **纯代码三维线稿 MV · 空间歌词 · FPV 穿越 · 语义隐喻**
 
@@ -6,7 +6,7 @@ A procedural 3D wireframe music video built with Python and ModernGL. Lyrics are
 
 ![片尾画面](docs/cover.jpg)
 
-由 **炽阳001 / Chiyang001** 制作。当前版本为 **v17 · First Half Alchemy**：补强前半段的物件与词义叙事：蘑菇袋、机械蛇、算力登月、晶格重组与对话机构都安装在同一个机械世界中。原版单眼与后半段结构继续保留。所有场景由代码线条与字形轮廓构造，无图片背景或预渲染场景素材。
+由 **炽阳001 / Chiyang001** 制作。当前版本为 **v18 · Object Pursuit**：让镜头追随真实载荷、月面和 Omega；FREE 重击撕开牢笼，尾声追逐火种穿过立体无限环并进入虹膜。结尾持续运动，取消旧标题和署名牌。原版单眼与既有机械线雕继续保留。所有场景由代码线条与字形轮廓构造，无图片背景或预渲染场景素材。
 
 ## 画面设计
 
@@ -14,11 +14,12 @@ A procedural 3D wireframe music video built with Python and ModernGL. Lyrics are
 - **18 段飞行、17 段实际穿字**：推进、俯冲、侧掠、上升与转向结合，四次爆炸落在 P(doom) 的歌词窗口。
 - **词义成为场景**：14 段前半编排补充既有 16 段语义场面；逐词对应的对象、典故和解释边界见 [22 项前半覆盖研究](v17/first_half_coverage.md) 与沿用的 [39 项概念词典](v15/concept_lexicon.md)。
 - **蘑菇袋与规则机器**：三株立体蘑菇装在敞口袋与承载台上，菌柄、菌褶、提手清楚可见；输送梁连接右侧分拣机，菌丝一次生长为上方拱顶。
-- **算力登月**：真实机壳、晶圆和散热片沿立体升轨抬升；带不同尺度凹坑的月面与泊位相连，并接入 Omega 汇聚。
+- **算力登月跟拍**：摄影机追随同一载荷爬升、掠过真实月面凹坑，用 160 ms 跨越追向独立 Omega 核心。歌词安装在物件的固定局部表面。
+- **FREE 无形重击**：57.745 秒主击使牢杆从轴承向上下和深处撕开，57.970 秒回弹；锁栓飞出，镜头后坐后穿入裂口。
 - **其他实体叙事**：分节机械蛇、控制关系倒转、训练活塞、优化轨、原子晶格、对话传递与局部检验工位共同丰富前半段。全部为代码线条，保留细线机械风格。
 - **Transformer 多分镜**：五个插入机位依次观察 token、位置信息、Q/K/V、四头注意力、残差与前馈、纵深解码；同一词的演唱过程中，装置与镜头持续改变。
 - **灾难长镜头与鼓点尾声**：Go 穿越包含色散、震动和结构坍塌；无歌词尾声沿 30 个鼓点穿过九组空间，单向推进 585 个世界单位。
-- **完整片尾**：154.6 秒起整帧定格，显示 `I'm Upping My P(doom)` 与 `Made by Chiyang001`。
+- **动态片尾**：固定空间的扭转无限环、分离交叉层、同一火种与深层虹膜形成连续跟拍；运动延续至最后一帧，片尾不展示标题或署名。
 
 ![隐喻分镜](docs/storyboard.jpg)
 
@@ -36,30 +37,30 @@ python -m venv .venv
 先生成静帧分镜，**无需音频**：
 
 ```powershell
-.\.venv\Scripts\python.exe v17/render.py --meaning-preview
+.\.venv\Scripts\python.exe v18/render.py --meaning-preview
 ```
 
-结果保存到 `v17/meaning_storyboard.jpg` 及同目录单帧图片。字体默认寻找本机 Arial Bold，也可显式指定可用的 `.ttf` / `.otf` 文件。
+结果保存到 `v18/meaning_storyboard.jpg` 及同目录单帧图片。字体默认寻找本机 Arial Bold，也可显式指定可用的 `.ttf` / `.otf` 文件。
 
 渲染完整 MV，请自行提供与本项目时间轴匹配、可使用的原曲音频或视频（MP4 / M4A 中的 AAC 音轨）：
 
 ```powershell
-.\.venv\Scripts\python.exe v17/render.py --audio "D:\Music\source.mp4"
+.\.venv\Scripts\python.exe v18/render.py --audio "D:\Music\source.mp4"
 ```
 
-默认输出：`output_v17/Im_Upping_My_Pdoom_First_Half_Alchemy_1080p.mp4`。音轨使用 `-c:a copy`，不会重新压缩。歌曲、原片及成片音视频未随源码分发；输入音轨需适合直接复制到 MP4 容器。
+默认输出：`output_v18/Im_Upping_My_Pdoom_Object_Pursuit_1080p.mp4`。音轨使用 `-c:a copy`，不会重新压缩。歌曲、原片及成片音视频未随源码分发；输入音轨需适合直接复制到 MP4 容器。
 
 先渲染一小段：
 
 ```powershell
-.\.venv\Scripts\python.exe v17/render.py --audio "D:\Music\source.mp4" --sample 30 --duration 3 --output "output_v17/sample.mp4"
+.\.venv\Scripts\python.exe v18/render.py --audio "D:\Music\source.mp4" --sample 30 --duration 3 --output "output_v18/sample.mp4"
 ```
 
 可配置 `--audio`、`--font`、`--output`、`--backend`，或设置 `PDOOM_AUDIO`、`PDOOM_FONT`、`PDOOM_OUTPUT`、`PDOOM_BACKEND` 环境变量。命令行参数优先；显式相对路径按启动命令的目录解析。`--help` 无需启动 GPU。
 
 ```powershell
-python v17/render.py --help
-python v17/render.py --font "C:\Windows\Fonts\arialbd.ttf" --meaning-preview
+python v18/render.py --help
+python v18/render.py --font "C:\Windows\Fonts\arialbd.ttf" --meaning-preview
 ```
 
 Linux 无显示服务时可以尝试 `--backend egl` 并指定系统字体；Linux / macOS 未做完整成片验收。字体替换会改变字宽和穿字构图，应重新检查歌词可读性。仓库不包含字体文件。
@@ -70,15 +71,17 @@ Linux 无显示服务时可以尝试 `--backend egl` 并指定系统字体；Lin
 
 | 位置 | 用途 |
 | --- | --- |
-| `v17/render.py`、`v17/render_options.py` | 最新渲染入口、输入输出与字体配置 |
-| `v17/first_half_score.py`、`first_half_director.py`、`first_half_geometry.py` | 14 段前半词义编排及实体机械 |
-| `v17/organic_geometry.py`、`orbital_geometry.py` | 蘑菇袋、蛇、月面、算力和立体升轨 |
-| `v17/semantic_score.py`、`semantic_director.py` | 沿用 16 段语义编排与 Transformer 多分镜 |
-| `v17/integrated_semantics.py`、`cohesive_geometry.py` | 机械语义部件、GPU 机舱及通用安装件 |
-| `v17/transformer_geometry.py` | Transformer 计算结构与前向、反向网络 |
+| `v18/render.py`、`v18/render_options.py` | 最新渲染入口、基础摄影机与追踪隔离、编码 |
+| `v18/object_pursuit.py` | 载荷、月面与 Omega 的物件追踪及歌词安装面 |
+| `v18/free_impact.py`、`infinity_finale.py` | 牢笼重击、位移与持续运动的无限环尾声 |
+| `v18/first_half_score.py`、`first_half_director.py`、`first_half_geometry.py` | 14 段前半词义编排及实体机械 |
+| `v18/organic_geometry.py`、`orbital_geometry.py` | 蘑菇袋、蛇、月面、算力和立体升轨 |
+| `v18/semantic_score.py`、`semantic_director.py` | 沿用 16 段语义编排与 Transformer 多分镜 |
+| `v18/integrated_semantics.py`、`cohesive_geometry.py` | 机械语义部件、GPU 机舱及通用安装件 |
+| `v18/transformer_geometry.py` | Transformer 计算结构与前向、反向网络 |
 | `v15/concept_lexicon.md`、`concept_lexicon.json` | 沿用的 39 项概念研究、时间与一手出处 |
 | `v14/metaphor_geometry.py`、`metaphor_extra.py` | 沿用的九段隐喻线雕与时序动作 |
-| `v17/flight_camera.py` | 穿字航线与摄影机数学 |
+| `v18/flight_camera.py` | 穿字航线与摄影机数学 |
 | `v13/` | Go 灾难动画、尾声长航线、字形细节 |
 | `v10/`、`v11/`、`v12/` | 分镜、激进镜头与飞行空间 |
 | `v9/` | 逐词编排、爆点与剪辑调度 |
@@ -87,31 +90,31 @@ Linux 无显示服务时可以尝试 `--backend egl` 并指定系统字体；Lin
 | `code3d/rhythm_v3.json` | 检测节奏、鼓点与冲击数据 |
 | `v11/compositions.json` | 最新渲染仍需读取的构图保护数据 |
 
-早期制作与修正脚本一并保留作开发记录；其中部分历史脚本依赖未分发的图片、影音或额外分析工具。**复现最终版本请使用 `v17/render.py`**。核心依赖见 `requirements.txt`；重新做早期节奏分析或语音转录时，相关脚本还需 SciPy、faster-whisper 等可选依赖。
+早期制作与修正脚本一并保留作开发记录；其中部分历史脚本依赖未分发的图片、影音或额外分析工具。**复现最终版本请使用 `v18/render.py`**。核心依赖见 `requirements.txt`；重新做早期节奏分析或语音转录时，相关脚本还需 SciPy、faster-whisper 等可选依赖。
 
 ## 检查与制作记录
 
 无需 GPU 的检查：
 
 ```powershell
-python -m compileall -q code3d work v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v17
-python v17/audit_words.py
-python v17/flight_camera.py
+python -m compileall -q code3d work v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v17 v18
+python v18/audit_words.py
+python v18/flight_camera.py
 ```
 
 空间可读性与实际飞行检查需要字体和 OpenGL：
 
 ```powershell
-python v17/qa_preserved_scenes.py
-python v17/qa_spatial_words.py v17
-python v17/qa_actual_flights.py
+python v18/qa_preserved_scenes.py
+python v18/qa_spatial_words.py v18
+python v18/qa_actual_flights.py
 ```
 
-v17 的原版单眼与后半段共 14 个原始 RGB 抽样帧，与 v16 完全一致。225 词原序、最多两词、无提前、完整描线与空间可读性检查通过；18 段飞行中 17 段实际穿字，均先可读后越面且无反向回穿。前半新装置使用有限动作，未恢复循环红扫线。
+225 词的原序、时序、最多两词、完整描线及空间可读性检查通过。18 段飞行中 17 段实际穿字，均先可读后越面且无反向回穿；新追踪没有重新跨过旧 P(doom) 字面。实际物件追踪的世界路径长 174.84 单位，三个方向均有显著平移。
 
-完整 MP4 已通过全片解码、原 AAC 位流一致性和 62 帧片尾定格检查；192 个事件各生成七帧用于转场复核。实际编码的 64 个画面及六张 1080p 重点原图通过[风格与词义验收](v17/qa_encoded_meaning_review.md)。
+完整 MP4 已渲染并通过全片解码与原 AAC 位流一致性检查。完成 207 个事件的转场抽帧、44 张编码画面及七张 1080p 动作重点帧复核；最后 62 帧全部不同，最后八帧也持续运动。七张原单眼与六张未改动后半段的原始 RGB 抽样帧与 v17 完全相同。具体范围与制作记录见 [v18 制作说明](v18/README.md)。
 
-上述数字对应制作时的原字体和原时序，修改字体或时序后需要重新验收。详细调整见 [v17 制作说明](v17/README.md)；一手概念来源仍见 [v15 概念词典](v15/concept_lexicon.md)；历史本地成片记录见 [制作历史](docs/LOCAL_RENDER_HISTORY.md)。生成日志、QA 大表、影音和帧图默认由 `.gitignore` 排除。
+上述数字对应制作时的原字体和原时序，修改字体或时序后需要重新验收。详细调整见 [v18 制作说明](v18/README.md)；一手概念来源仍见 [v15 概念词典](v15/concept_lexicon.md)；历史本地成片记录见 [制作历史](docs/LOCAL_RENDER_HISTORY.md)。生成日志、QA 大表、影音和帧图默认由 `.gitignore` 排除。
 
 ## 开源与作者
 

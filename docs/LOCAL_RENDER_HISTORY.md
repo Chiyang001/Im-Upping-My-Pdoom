@@ -1,4 +1,12 @@
-# 最新成片：I'm Upping My P(doom) — First Half Alchemy
+# 最新成片：I'm Upping My P(doom) — Object Pursuit
+
+当前交付：output_v18/Im_Upping_My_Pdoom_Object_Pursuit_1080p.mp4
+
+制作说明与复现入口：v18/README.md。NVDA → Moon → Omega 镜头跟随真实载荷、月面与汇聚点；FREE 处由无形重击撕开牢杆，镜头随之后坐并穿出。其他段落跟随蘑菇载台、优化轨道车与原子晶格移动。尾声改为追逐火种穿过立体无限环并进入虹膜，持续运动至最后一帧，按本轮要求取消歌名与制作者牌。
+
+1920×1080、30 fps、4700 帧，1,161,046,765 字节。全片解码、原 AAC 位流一致性、207 事件抽帧检查完成；225 词和 18 段飞行 / 17 处穿字通过。物件追踪 864 次采样的世界路径长 174.84 单位，三个坐标方向均有平移。13 张原单眼 / 未修改后半段原始 RGB 抽样帧与 v17 完全相同。实际编码 44 张抽样图、七张额外 1080p 动作重点帧与尾声阶段画面通过复核；最后 62 帧全部不同，最后八帧持续运动。
+
+## v17 记录：First Half Alchemy
 
 当前交付：output_v17/Im_Upping_My_Pdoom_First_Half_Alchemy_1080p.mp4
 
