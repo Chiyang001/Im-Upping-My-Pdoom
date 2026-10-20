@@ -1,4 +1,4 @@
-# I'm Upping My P(doom) — Integrated Linework
+# I'm Upping My P(doom) — First Half Alchemy
 
 **纯代码三维线稿 MV · 空间歌词 · FPV 穿越 · 语义隐喻**
 
@@ -6,14 +6,16 @@ A procedural 3D wireframe music video built with Python and ModernGL. Lyrics are
 
 ![片尾画面](docs/cover.jpg)
 
-由 **炽阳001 / Chiyang001** 制作。当前版本为 **v16 · Integrated Linework**：恢复原版单眼球，把新增语义部件统一到机械线雕的安装件、机舱与线束中。所有场景由代码线条与字形轮廓构造，无图片背景或预渲染场景素材。
+由 **炽阳001 / Chiyang001** 制作。当前版本为 **v17 · First Half Alchemy**：补强前半段的物件与词义叙事：蘑菇袋、机械蛇、算力登月、晶格重组与对话机构都安装在同一个机械世界中。原版单眼与后半段结构继续保留。所有场景由代码线条与字形轮廓构造，无图片背景或预渲染场景素材。
 
 ## 画面设计
 
 - **225 词空间歌词**：按演唱逐词描线，每次最多两个词；字形有厚度、骨架与细节，处于固定三维空间。
 - **18 段飞行、17 段实际穿字**：推进、俯冲、侧掠、上升与转向结合，四次爆炸落在 P(doom) 的歌词窗口。
-- **统一场景风格**：开场与 Shinigami 段恢复 v14 单眼球；GPU / FLOPS 改为有散热、嵌入核心和互联的一体机舱，移除新增悬浮图标与循环扫线。
-- **筛选语义动作**：v15 的 27 段附加编排保留 16 段，另 11 段回退原场景或取消附加覆盖；损失轨道、Lisp 链表、Gato 多任务、遮蔽 token 和分支未来等通过实体结构表达。39 项词义与一手出处仍保存在 [v15 概念词典](v15/concept_lexicon.md)。
+- **词义成为场景**：14 段前半编排补充既有 16 段语义场面；逐词对应的对象、典故和解释边界见 [22 项前半覆盖研究](v17/first_half_coverage.md) 与沿用的 [39 项概念词典](v15/concept_lexicon.md)。
+- **蘑菇袋与规则机器**：三株立体蘑菇装在敞口袋与承载台上，菌柄、菌褶、提手清楚可见；输送梁连接右侧分拣机，菌丝一次生长为上方拱顶。
+- **算力登月**：真实机壳、晶圆和散热片沿立体升轨抬升；带不同尺度凹坑的月面与泊位相连，并接入 Omega 汇聚。
+- **其他实体叙事**：分节机械蛇、控制关系倒转、训练活塞、优化轨、原子晶格、对话传递与局部检验工位共同丰富前半段。全部为代码线条，保留细线机械风格。
 - **Transformer 多分镜**：五个插入机位依次观察 token、位置信息、Q/K/V、四头注意力、残差与前馈、纵深解码；同一词的演唱过程中，装置与镜头持续改变。
 - **灾难长镜头与鼓点尾声**：Go 穿越包含色散、震动和结构坍塌；无歌词尾声沿 30 个鼓点穿过九组空间，单向推进 585 个世界单位。
 - **完整片尾**：154.6 秒起整帧定格，显示 `I'm Upping My P(doom)` 与 `Made by Chiyang001`。
@@ -34,30 +36,30 @@ python -m venv .venv
 先生成静帧分镜，**无需音频**：
 
 ```powershell
-.\.venv\Scripts\python.exe v16/render.py --meaning-preview
+.\.venv\Scripts\python.exe v17/render.py --meaning-preview
 ```
 
-结果保存到 `v16/meaning_storyboard.jpg` 及同目录单帧图片。字体默认寻找本机 Arial Bold，也可显式指定可用的 `.ttf` / `.otf` 文件。
+结果保存到 `v17/meaning_storyboard.jpg` 及同目录单帧图片。字体默认寻找本机 Arial Bold，也可显式指定可用的 `.ttf` / `.otf` 文件。
 
 渲染完整 MV，请自行提供与本项目时间轴匹配、可使用的原曲音频或视频（MP4 / M4A 中的 AAC 音轨）：
 
 ```powershell
-.\.venv\Scripts\python.exe v16/render.py --audio "D:\Music\source.mp4"
+.\.venv\Scripts\python.exe v17/render.py --audio "D:\Music\source.mp4"
 ```
 
-默认输出：`output_v16/Im_Upping_My_Pdoom_Integrated_Linework_1080p.mp4`。音轨使用 `-c:a copy`，不会重新压缩。歌曲、原片及成片音视频未随源码分发；输入音轨需适合直接复制到 MP4 容器。
+默认输出：`output_v17/Im_Upping_My_Pdoom_First_Half_Alchemy_1080p.mp4`。音轨使用 `-c:a copy`，不会重新压缩。歌曲、原片及成片音视频未随源码分发；输入音轨需适合直接复制到 MP4 容器。
 
 先渲染一小段：
 
 ```powershell
-.\.venv\Scripts\python.exe v16/render.py --audio "D:\Music\source.mp4" --sample 30 --duration 3 --output "output_v16/sample.mp4"
+.\.venv\Scripts\python.exe v17/render.py --audio "D:\Music\source.mp4" --sample 30 --duration 3 --output "output_v17/sample.mp4"
 ```
 
 可配置 `--audio`、`--font`、`--output`、`--backend`，或设置 `PDOOM_AUDIO`、`PDOOM_FONT`、`PDOOM_OUTPUT`、`PDOOM_BACKEND` 环境变量。命令行参数优先；显式相对路径按启动命令的目录解析。`--help` 无需启动 GPU。
 
 ```powershell
-python v16/render.py --help
-python v16/render.py --font "C:\Windows\Fonts\arialbd.ttf" --meaning-preview
+python v17/render.py --help
+python v17/render.py --font "C:\Windows\Fonts\arialbd.ttf" --meaning-preview
 ```
 
 Linux 无显示服务时可以尝试 `--backend egl` 并指定系统字体；Linux / macOS 未做完整成片验收。字体替换会改变字宽和穿字构图，应重新检查歌词可读性。仓库不包含字体文件。
@@ -68,13 +70,15 @@ Linux 无显示服务时可以尝试 `--backend egl` 并指定系统字体；Lin
 
 | 位置 | 用途 |
 | --- | --- |
-| `v16/render.py`、`v16/render_options.py` | 最新渲染入口、输入输出与字体配置 |
-| `v16/semantic_score.py`、`semantic_director.py` | 16 段语义编排、有限动作与部件增益 |
-| `v16/integrated_semantics.py`、`cohesive_geometry.py` | 机械语义部件、GPU 机舱及通用安装件 |
-| `v16/transformer_geometry.py` | Transformer 计算结构与前向、反向网络 |
+| `v17/render.py`、`v17/render_options.py` | 最新渲染入口、输入输出与字体配置 |
+| `v17/first_half_score.py`、`first_half_director.py`、`first_half_geometry.py` | 14 段前半词义编排及实体机械 |
+| `v17/organic_geometry.py`、`orbital_geometry.py` | 蘑菇袋、蛇、月面、算力和立体升轨 |
+| `v17/semantic_score.py`、`semantic_director.py` | 沿用 16 段语义编排与 Transformer 多分镜 |
+| `v17/integrated_semantics.py`、`cohesive_geometry.py` | 机械语义部件、GPU 机舱及通用安装件 |
+| `v17/transformer_geometry.py` | Transformer 计算结构与前向、反向网络 |
 | `v15/concept_lexicon.md`、`concept_lexicon.json` | 沿用的 39 项概念研究、时间与一手出处 |
 | `v14/metaphor_geometry.py`、`metaphor_extra.py` | 沿用的九段隐喻线雕与时序动作 |
-| `v16/flight_camera.py` | 穿字航线与摄影机数学 |
+| `v17/flight_camera.py` | 穿字航线与摄影机数学 |
 | `v13/` | Go 灾难动画、尾声长航线、字形细节 |
 | `v10/`、`v11/`、`v12/` | 分镜、激进镜头与飞行空间 |
 | `v9/` | 逐词编排、爆点与剪辑调度 |
@@ -83,32 +87,31 @@ Linux 无显示服务时可以尝试 `--backend egl` 并指定系统字体；Lin
 | `code3d/rhythm_v3.json` | 检测节奏、鼓点与冲击数据 |
 | `v11/compositions.json` | 最新渲染仍需读取的构图保护数据 |
 
-早期制作与修正脚本一并保留作开发记录；其中部分历史脚本依赖未分发的图片、影音或额外分析工具。**复现最终版本请使用 `v16/render.py`**。核心依赖见 `requirements.txt`；重新做早期节奏分析或语音转录时，相关脚本还需 SciPy、faster-whisper 等可选依赖。
+早期制作与修正脚本一并保留作开发记录；其中部分历史脚本依赖未分发的图片、影音或额外分析工具。**复现最终版本请使用 `v17/render.py`**。核心依赖见 `requirements.txt`；重新做早期节奏分析或语音转录时，相关脚本还需 SciPy、faster-whisper 等可选依赖。
 
 ## 检查与制作记录
 
 无需 GPU 的检查：
 
 ```powershell
-python -m compileall -q code3d work v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16
-python v16/audit_words.py
-python v16/flight_camera.py
-python v16/qa_eye_restore.py --static-only
+python -m compileall -q code3d work v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15 v16 v17
+python v17/audit_words.py
+python v17/flight_camera.py
 ```
 
 空间可读性与实际飞行检查需要字体和 OpenGL：
 
 ```powershell
-python v16/qa_eye_restore.py
-python v16/qa_spatial_words.py v16
-python v16/qa_actual_flights.py
+python v17/qa_preserved_scenes.py
+python v17/qa_spatial_words.py v17
+python v17/qa_actual_flights.py
 ```
 
-v16 已通过七帧单眼原始 RGB 与 v14 完全一致的精确复原检查；225 词原序、最多两词、无提前、完整描线与空间可读性检查通过；18 段飞行中 17 段实际穿字，均先可读后越面且无反向回穿。新语义导演的静态检查确认没有独立红线调用或取模相位循环。
+v17 的原版单眼与后半段共 14 个原始 RGB 抽样帧，与 v16 完全一致。225 词原序、最多两词、无提前、完整描线与空间可读性检查通过；18 段飞行中 17 段实际穿字，均先可读后越面且无反向回穿。前半新装置使用有限动作，未恢复循环红扫线。
 
-完整母版已通过全片解码、原 AAC 位流 SHA256 一致性与 62 帧片尾定格检查；165 个事件各生成前后三帧及事件帧用于复核。另抽查实际编码的 44 个语义画面、GPU 四时刻序列与四张 1080p 重点帧，风格验收通过，见 [编码画面复核](v16/qa_encoded_meaning_review.md)。
+完整 MP4 已通过全片解码、原 AAC 位流一致性和 62 帧片尾定格检查；192 个事件各生成七帧用于转场复核。实际编码的 64 个画面及六张 1080p 重点原图通过[风格与词义验收](v17/qa_encoded_meaning_review.md)。
 
-上述数字对应制作时的原字体和原时序，修改字体或时序后需要重新验收。详细调整见 [v16 制作说明](v16/README.md)；一手概念来源仍见 [v15 概念词典](v15/concept_lexicon.md)；历史本地成片记录见 [制作历史](docs/LOCAL_RENDER_HISTORY.md)。生成日志、QA 大表、影音和帧图默认由 `.gitignore` 排除。
+上述数字对应制作时的原字体和原时序，修改字体或时序后需要重新验收。详细调整见 [v17 制作说明](v17/README.md)；一手概念来源仍见 [v15 概念词典](v15/concept_lexicon.md)；历史本地成片记录见 [制作历史](docs/LOCAL_RENDER_HISTORY.md)。生成日志、QA 大表、影音和帧图默认由 `.gitignore` 排除。
 
 ## 开源与作者
 

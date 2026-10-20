@@ -1,0 +1,229 @@
+{
+  "version": "v17_first_half_design_audit",
+  "scope_seconds": [0, 74],
+  "timing_source": "v16/word_timeline.json",
+  "visual_source": "output_v16/Im_Upping_My_Pdoom_Integrated_Linework_1080p.mp4",
+  "visual_samples": "v17/first_half_v16_samples.json",
+  "sample_contact_sheet": "v17/first_half_v16_contacts.jpg",
+  "status": "design_proposal_not_implemented_or_rendered",
+  "global_rules": [
+    "Preserve the restored v14 single eyeball; no new pair of eyes or clocks.",
+    "Do not add labels, HUD diagrams, floating chip icons, stock charts or looping red scan lines.",
+    "Objects are mounted in the same fixed world, with depth, a physical support and one finite causal action.",
+    "Keep P(doom) impact timing, lyric timing, existing flight paths and the high-quality second half.",
+    "For moving-camera scenes place props ahead along the actual trajectory, not back at a passed station.",
+    "Original metaphor designs are not evidence that the represented technology or scenario is real."
+  ],
+  "primary_sources": {
+    "author": "https://docs.osmarks.net/rev/b3140e5/p%28doom%29_song_objectively_correct_interpretation",
+    "nvda": "https://investor.nvidia.com/investor-resources/faqs/default.aspx",
+    "sydney": "https://blogs.bing.com/search/2023/2/The-new-Bing-Edge-Learning-from-our-first-week/",
+    "basilisk": "https://basilisk.neocities.org/",
+    "omega_fiction": "https://www.orionsarm.com/eg-article/483b1d57a9f34",
+    "sparks": "https://arxiv.org/abs/2303.12712",
+    "chinese_room": "https://cse.buffalo.edu/~rapaport/Papers/Papers.by.Others/Searle/searle80.html",
+    "foom": "https://intelligence.org/files/IEM.pdf",
+    "singularity": "https://cseweb.ucsd.edu/~goguen/misc/singularity.html",
+    "shoggoth": "https://www.hplovecraft.com/writings/texts/fiction/mm.aspx"
+  },
+  "entries": [
+    {
+      "id": "sparks_agi", "window": [1.42,5.58], "focus": [2.64,4.38], "priority": "P2", "strategy": "preserve_with_micro_action",
+      "v16_coverage": "3.7秒单眼主体鲜明，AGI有字形；跨模块能力与火花仅抽象。",
+      "recognizable_object": "保留单眼虹膜；内层三组不同形状的机械接点。",
+      "single_action": "一枚白色火花依次接通三组接点，然后汇回原瞳孔一次。",
+      "mount": "接点刻在既有虹膜内圈，不新增眼壳或外侧图标。",
+      "camera": "保持v14单眼摄影机，不再改整段构图。",
+      "boundary": "标题联想可疑而非确定作者意图；不把火花称为真实AGI验收。", "sources": ["sparks","author"]
+    },
+    {
+      "id": "circuits", "window": [5.58,9.08], "focus": [6.0,7.32], "priority": "P2", "strategy": "preserve_with_connected_action",
+      "v16_coverage": "7.1秒已有强烈实体线束，未见板状芯片覆盖，风格良好。",
+      "recognizable_object": "原机械神经束与两级实体继电接点。",
+      "single_action": "沿已有分叉依次点亮一条通路，nervous时下游接点短暂错拍一次。",
+      "mount": "在线束本身显露细接头；不另造PCB展板。",
+      "camera": "原侧向掠过镜头已足够，保持线束近远视差。",
+      "boundary": "circuits按机制解释语境处理，不等同电路板或意识。", "sources": ["author"]
+    },
+    {
+      "id": "training_loss", "window": [9.08,12.94], "focus": [10.52,12.44], "priority": "P2", "strategy": "preserve",
+      "v16_coverage": "11.8秒损失曲线和轨道可读，既有LOSS飞行有明确坠落方向。",
+      "recognizable_object": "已存在的三维损失轨与骤降断面。",
+      "single_action": "曲线只做一次下降到断崖，镜头跟随原LOSS路径穿下。",
+      "mount": "保留v16安装架，无新增坐标教学面板。",
+      "camera": "保留已验证的LOSS穿字镜头。",
+      "boundary": "降低损失不等于觉醒，不将曲线当真实实验数据。", "sources": []
+    },
+    {
+      "id": "servant_boss", "window": [12.94,16.2], "focus": [13.78,16.2], "priority": "P1", "strategy": "strengthen_existing_geometry",
+      "v16_coverage": "14.1/15.8秒有两束向上立柱，却看不出谁控制谁。",
+      "recognizable_object": "原束线底端的实体操纵杆、上端机械核心和关节吊臂。",
+      "single_action": "操纵杆先牵动核心，boss时同一缆索反向收紧，将操纵杆抬起并锁进核心支架。",
+      "mount": "吊臂连原地台，缆索沿现有两束柱线，不放人形图标。",
+      "camera": "一次低位抬升，跟随控制关系倒转。",
+      "boundary": "原创权力倒转寓意，不宣称模型真实统治意图。", "sources": []
+    },
+    {
+      "id": "chatgpt", "window": [16.2,22.2], "focus": [16.2,21.28], "priority": "P2", "strategy": "preserve",
+      "v16_coverage": "17.8/20.5秒已有明确牙状吞噬空间和穿行，语义充分。",
+      "recognizable_object": "现有机械咬合门与中央通道。",
+      "single_action": "eat时门齿合拢一次，alive时镜头沿既有缝隙逃出。",
+      "mount": "牙门本来就是场景墙体；不加品牌Logo或聊天气泡。",
+      "camera": "沿现有咬合张力及逃离镜头。",
+      "boundary": "拟人化歌词，吞噬是原创夸张。", "sources": []
+    },
+    {
+      "id": "pdoom", "window": [22.2,24.44], "focus": [23.56,24.04], "priority": "P2", "strategy": "preserve",
+      "v16_coverage": "23.7秒词点爆炸明确且有大范围穿越；不需再加风险仪。",
+      "recognizable_object": "现有P(doom)实体字面、破裂机械圈和冲击通道。",
+      "single_action": "词点引爆一次并穿过字面。",
+      "mount": "保持原事件焦点与实际字平面。",
+      "camera": "保留四次已校验爆炸穿字，不把爆点改到boom。",
+      "boundary": "主观风险判断；不显示臆造概率数字。", "sources": []
+    },
+    {
+      "id": "foom", "window": [24.44,26.06], "focus": [25.44,26.06], "priority": "P1", "strategy": "strengthen_route_consequence",
+      "v16_coverage": "25.6秒有高速通道，但快速智能增殖仍仅靠词与速度暗示。",
+      "recognizable_object": "原通道的三段由上一段承接的制造门环。",
+      "single_action": "前一门环展开下一门环，三个生成间隔依次缩短一次。",
+      "mount": "利用已存在的通道侧壁和纵深框架，不单独复制中央旋转物。",
+      "camera": "保留Pdoom1飞行余速，门环沿既有航线先后经过。",
+      "boundary": "假设性的智能爆炸，不是第二次无因爆炸。", "sources": ["foom"]
+    },
+    {
+      "id": "chinese_room", "window": [26.06,29.68], "focus": [26.96,27.8], "priority": "P2", "strategy": "preserve_and_extend_exit",
+      "v16_coverage": "27.5秒规则架、输入输出机构、空椅子组合清楚。",
+      "recognizable_object": "已存在的规则墙、两侧纸槽、空椅及搬运机构。",
+      "single_action": "同一符片进入槽、按规则匹配、从出口吐出一次。",
+      "mount": "保留v14实体房间，出口投递台可承接蘑菇袋。",
+      "camera": "保留ROOM穿字；后续道具要沿28–29秒相机前方另设出口工位。",
+      "boundary": "讨论符号处理与理解的思想实验，不能当成既定不可能性证明。", "sources": ["chinese_room"]
+    },
+    {
+      "id": "bag_shrooms", "window": [27.8,29.68], "focus": [28.34,29.68], "priority": "P0", "strategy": "add_recognizable_prop_and_action",
+      "v16_coverage": "28.4秒BAG与29.3秒SHROOMS只有字和通道，未见可辨认袋或蘑菇。",
+      "recognizable_object": "敞口布袋的袋口褶皱、提绳，至少三朵具伞盖、柄、菌褶的线雕蘑菇。",
+      "single_action": "袋口被投递机构拉开一次；近景菌盖遮过镜头时，规则槽出现一次有限错位再接回。",
+      "mount": "袋放在ROOM出口加工台并由挂钩固定，支腿接原轨道。必须位于28.4–29.3实际航线前方。",
+      "camera": "28.34先见袋形，29.12唱词后斜掠菌褶近景，不能只放回27秒旧房间。",
+      "boundary": "作者仅解释为困惑；蘑菇错觉是原创画面，不是药理说明。", "sources": ["author"]
+    },
+    {
+      "id": "shoggoth", "window": [29.68,31.83], "focus": [30.58,31.78], "priority": "P2", "strategy": "preserve",
+      "v16_coverage": "30.8秒已有面具与背后多眼躯体的空间揭露。",
+      "recognizable_object": "已有笑脸薄壳、触须、异质内部。",
+      "single_action": "薄壳分开一次，内部沿两个纵深层级显露。",
+      "mount": "保留v14蒙皮、连接线与背部深层实例。",
+      "camera": "保留MASK REVEAL穿字，不再增加一套眼球符号。",
+      "boundary": "文学生物与界面隐喻，不充当RLHF完整技术定义。", "sources": ["shoggoth"]
+    },
+    {
+      "id": "shinigami_eyes", "window": [31.83,38.19], "focus": [33.8,35.4], "priority": "LOCK", "strategy": "preserve_exact_single_eye",
+      "v16_coverage": "34.9秒单个球形眼球辨识度高，用户指定回退已完成。",
+      "recognizable_object": "v14原单眼球和虹膜，无额外双眼或时钟。",
+      "single_action": "只保留既有观察/掠过动作；若需轻微预示，只让原虹膜内一层暗带合拢一次。",
+      "mount": "原眼球内部；不得叠加外侧符号。",
+      "camera": "保留v14眼球摄影机及七帧复原基准。",
+      "boundary": "歌词具体用法作者也未明确；不再强行画寿命数字或交易钟表。", "sources": ["author"]
+    },
+    {
+      "id": "stable_training", "window": [38.19,41.16], "focus": [39.26,41.16], "priority": "P2", "strategy": "preserve_with_finite_transition",
+      "v16_coverage": "40秒整齐波形与稳定纵深有规律，但训练步骤较抽象。",
+      "recognizable_object": "原平稳波形轨和共用节拍横梁。",
+      "single_action": "三层波形按同一节拍响应；最后一层在singularity前偏离一次。",
+      "mount": "原训练轨道，不新增前景芯片板。",
+      "camera": "保持原推进，偏离动作只为下一幕埋因。",
+      "boundary": "稳定训练不等于已验证安全。", "sources": []
+    },
+    {
+      "id": "singularity", "window": [41.16,44.79], "focus": [41.98,44.72], "priority": "P2", "strategy": "preserve_and_tie_scale_change",
+      "v16_coverage": "42.8秒高速倾斜与巨大结构有尺度跃迁，冲击充分。",
+      "recognizable_object": "原训练轨在折曲门后变成下一代机器的小支承。",
+      "single_action": "镜头越过折曲边界一次，旧结构以更小尺度嵌入新结构。",
+      "mount": "同一轨道的嵌套层级，不用孤立黑洞图标。",
+      "camera": "保留SING飞行，利用原近景遮挡隐藏尺度交接。",
+      "boundary": "技术奇点是假设未来界点，不等于天体黑洞。", "sources": ["singularity"]
+    },
+    {
+      "id": "optimizing_accelerating", "window": [44.79,48.645], "focus": [45.62,48.64], "priority": "P1", "strategy": "add_track_reconfiguration",
+      "v16_coverage": "46.4秒中部机械曲线清楚，优化目标与步骤尚不直观。",
+      "recognizable_object": "原道路上的倾斜误差轨、实体球形接点和分叉轨。",
+      "single_action": "接点经过一条较长分支后，分叉支臂折成更短路线一次，随后沿更短路线加速。",
+      "mount": "折臂连原场景脊柱，不增加正面损失函数图。",
+      "camera": "跟随原ACCEL穿字，轨道重排发生在入射方向前方。",
+      "boundary": "优化轨迹是原创比喻，不模拟或声称真实训练步。", "sources": []
+    },
+    {
+      "id": "atoms_rearranging", "window": [48.645,52.56], "focus": [50.16,52.56], "priority": "P1", "strategy": "strengthen_material_consequence",
+      "v16_coverage": "51.5秒密集立体线网与强穿越存在，但物质重组没有明确前后状态。",
+      "recognizable_object": "原梁柱末端的三维晶格和一只已连接的抓取爪。",
+      "single_action": "夹爪从一根梁抽出一组晶格，转90度后嵌入新通道一次；旧梁留下清楚缺口。",
+      "mount": "晶格来自真实梁柱，不能漂浮成若干独立原子图标。",
+      "camera": "保留ATOMS飞行，穿过重组形成的缺口。",
+      "boundary": "分子制造科幻意象，不声称现有模型能重排人体。", "sources": []
+    },
+    {
+      "id": "sydney", "window": [52.56,58.43], "focus": [52.56,58.4], "priority": "P1", "strategy": "strengthen_existing_cage",
+      "v16_coverage": "54.2/57.8秒有牢笼式纵杆，但Bing对话系统语境不可辨。",
+      "recognizable_object": "原囚笼变成从同一请求槽返回的两条折叠回答纸带，接头为机械喉口。",
+      "single_action": "回答带回接请求端形成闭环一次，free时原门锁释放符片，符片沿出口逃出。",
+      "mount": "纸带挂在原栅栏横梁，槽口是原门框一部分；不新增聊天气泡与浏览器HUD。",
+      "camera": "保留现有侧穿门，free时追同一符片。",
+      "boundary": "作者指Bing Sydney；环绕囚笼为本片原创，不画悉尼歌剧院或真实人格绑架。", "sources": ["author","sydney"]
+    },
+    {
+      "id": "basilisk", "window": [60.86,62.34], "focus": [61.02,62.34], "priority": "P0", "strategy": "add_mounted_serpentine_cause",
+      "v16_coverage": "61.5秒只有飞行网格和词，蛇类轮廓与回折威胁均不足。",
+      "recognizable_object": "沿原轨道盘绕的分节机械蛇，楔形头、颈、腹侧分节，避免只画一双眼。",
+      "single_action": "远端蛇头回望，使已接近的轨道分叉被同一回折索拉紧一次；镜头从未合拢的蛇圈穿过。",
+      "mount": "蛇身用接箍锁在原轨道，回折索有两个真实端点。",
+      "camera": "Pdoom2爆炸后61秒的航线前方布置蛇圈，boom时只作一次甩头/压缩，不另设爆点。",
+      "boundary": "作者指向理性主义胁迫梗；Roko原帖为有争议思想实验，不表现真实追杀或知道就会受罚。", "sources": ["author","basilisk"]
+    },
+    {
+      "id": "nvda", "window": [62.34,64.22], "focus": [62.34,63.28], "priority": "P0", "strategy": "add_physical_scale_hero",
+      "v16_coverage": "62.5秒词在飞行通道中，没有明确算力物件；v15正面芯片已因风格回退。",
+      "recognizable_object": "一体GPU机舱的斜侧面、散热鳍、埋入核心、实际互联，沿实体升轨。",
+      "single_action": "同一机舱载台沿弯曲上升轨抬升一次，成为moon场面前景。",
+      "mount": "载台锁在原右侧机架延伸出的升轨，支架有厚度与侧面。",
+      "camera": "先贴近散热片后上扬，使月面从机舱后方露出；不要正面悬浮chip。",
+      "boundary": "NVDA是股票代码；上涨是歌词里的投机式口号，非实际价格或回报事实。", "sources": ["author","nvda"]
+    },
+    {
+      "id": "moon", "window": [63.28,64.22], "focus": [63.76,64.06], "priority": "P0", "strategy": "add_legible_lunar_surface",
+      "v16_coverage": "63.7秒仍为通用通道，缺少月球/月面；moon词窗仅0.3秒。",
+      "recognizable_object": "大弧度月面及至少三处不同尺度的坑纹，前景保留已抬升的机舱和升轨。",
+      "single_action": "上升轨末端搭到月面机架一次，远端月弧转为Omega汇聚的外圈。",
+      "mount": "月面是远处世界几何，不是手掌大小漂浮球；轨道与月面设施相连。",
+      "camera": "63.35开始露出月弧，63.76唱词时有可辨轮廓，64.06后汇聚收束；不要全靠0.3秒才弹出。",
+      "boundary": "月面升轨是原创字面双关，不是NVIDIA真实登月事实。", "sources": ["author","nvda"]
+    },
+    {
+      "id": "omega_point", "window": [64.22,65.94], "focus": [64.22,65.04], "priority": "P1", "strategy": "connect_to_preceding_world",
+      "v16_coverage": "65秒有向心线路和小焦点，但主体偏小且与月球缺乏连续因果。",
+      "recognizable_object": "月面机舱的多股实体轨道汇入同一压缩核心，外层保留三层收束轮廓。",
+      "single_action": "上一幕多条轨道向焦点合拢一次，镜头从收束外侧切到核心侧面。",
+      "mount": "线路起端就是上一幕设施，不凭空放射；焦点有支承环。",
+      "camera": "收束焦点至少达到能辨认的中景尺寸，别只是一粒80px级点。",
+      "boundary": "作者链接Orion's Arm的虚构Omega神学语境，不当作已验证宇宙学或确定预言。", "sources": ["author","omega_fiction"]
+    },
+    {
+      "id": "1e30_flops", "window": [65.94,68.2], "focus": [65.94,67.28], "priority": "P2", "strategy": "preserve_with_finite_parallel_reveal",
+      "v16_coverage": "67秒机舱、运算规模和纵深结构统一，优于v15复制白塔。",
+      "recognizable_object": "现有嵌入核心、互联总线和后部并行机架。",
+      "single_action": "近处一组接点完成运算后，后部三层并行接点依次回应一次。",
+      "mount": "所有接点在现有bus和core内，不独立扫线。",
+      "camera": "保留既有机舱镜头，可少量从核心边缘掠过以示规模。",
+      "boundary": "1e30是歌词夸张算力，不对应作者指定的法规阈值或真实集群性能。", "sources": ["author"]
+    },
+    {
+      "id": "safe_enough", "window": [68.2,73.87], "focus": [70.08,72.9], "priority": "P1", "strategy": "make_approval_blind_spot_physical",
+      "v16_coverage": "69.8/72.5秒白纸式网络延续，反讽气氛有，但安全盲点只抽象。",
+      "recognizable_object": "原白纸机械上的实体检验夹、短量规与背面继续伸出的阵列。",
+      "single_action": "量规只夹住局部后锁定一次；侧翻露出它量程之外仍扩张的结构。",
+      "mount": "夹具是原网络支架的一部分，保留白底节奏变化；不加大勾、章、印刷审批文字或UI表。",
+      "camera": "safe时局部近景，reckoned一次侧移显露背后；73秒接MLP支承网络。",
+      "boundary": "讽喻性安全自信，不影射某项作者未指定的法规。", "sources": ["author"]
+    }
+  ]
+}

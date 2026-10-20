@@ -1,4 +1,12 @@
-# 最新成片：I'm Upping My P(doom) — Integrated Linework
+# 最新成片：I'm Upping My P(doom) — First Half Alchemy
+
+当前交付：output_v17/Im_Upping_My_Pdoom_First_Half_Alchemy_1080p.mp4
+
+制作说明与复现入口：v17/README.md。前半段新增14段实体词义编排：蘑菇袋、规则分拣机和菌褶拱顶，机械蛇，算力登月与月面泊位，控制、对话、训练、制造、优化、晶格与局部检验工位。全部为纯代码线条，沿用原单眼和后半段视觉结构。
+
+1920×1080、30 fps、4700 帧，1,150,459,346 字节。全片解码、原 AAC 位流一致性、192事件抽帧及最后62帧定格检查完成；225词和18段飞行/17处穿字通过，14个原眼/后半原始RGB抽样帧与v16完全相同。实际编码64帧及六张1080p重点原图通过风格验收。
+
+## v16 记录：Integrated Linework
 
 当前交付：output_v16/Im_Upping_My_Pdoom_Integrated_Linework_1080p.mp4
 
