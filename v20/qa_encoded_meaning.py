@@ -15,7 +15,7 @@ from PIL import Image, ImageDraw
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_VIDEO = ROOT / 'output_v20/Im_Upping_My_Pdoom_Semantic_Thrust_1080p.mp4'
+DEFAULT_VIDEO = ROOT / 'output_v20/Im_Upping_My_Pdoom_Semantic_Thrust_Smooth_1080p.mp4'
 PLAN = [('hook',[0.,.35,.8,1.4]),('eye',[3.7,34.9,36.9,37.9]),('free',[56.86,57.545,57.82,58.25]),('pursuit',[62.8,63.4,63.85,64.35]),('repeat',[74.1,75.6,76.1,76.9]),('cdr',[85.,86.5,87.8,89.4]),('memory',[78.3,79.1,79.9,80.5]),('operator',[99.3,99.6,100.05,101.8]),('fuse',[102.5,102.76,103.42,104.12]),('axes',[105.3,106.5,107.1,108.7]),('transformer',[110.7,112.1,113.1,114.6]),('feedback',[119.2,119.8,120.8,122.1]),('branch',[125.1,126.2,126.8,127.6]),('upgrade',[128.47,129.42,129.8,130.36]),('cascade',[130.76,131.36,131.96,132.2]),('witness',[132.6,134.1,136.55,138.5]),('outro',[145.4,153.415,155.8,156.6])]
 
 

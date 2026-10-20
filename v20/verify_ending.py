@@ -25,7 +25,7 @@ from PIL import Image, ImageDraw
 
 ROOT = Path(__file__).resolve().parents[1]
 QA = ROOT / 'v20'
-DEFAULT_VIDEO = ROOT / 'output_v20' / 'Im_Upping_My_Pdoom_Semantic_Thrust_1080p.mp4'
+DEFAULT_VIDEO = ROOT / 'output_v20' / 'Im_Upping_My_Pdoom_Semantic_Thrust_Smooth_1080p.mp4'
 FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
 W, H, FPS = 1920, 1080, 30
 TAIL_START, EXPECTED_FRAMES = 154.6, 62

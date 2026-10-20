@@ -25,7 +25,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 QA = ROOT / 'v20'
-DEFAULT_VIDEO = ROOT / 'output_v20' / 'Im_Upping_My_Pdoom_Semantic_Thrust_1080p.mp4'
+DEFAULT_VIDEO = ROOT / 'output_v20' / 'Im_Upping_My_Pdoom_Semantic_Thrust_Smooth_1080p.mp4'
 DEFAULT_SOURCE = ROOT / '吓哭了Opus5.5 AGI概念MV.mp4'
 FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
 THUMB_W, THUMB_H = 320, 180

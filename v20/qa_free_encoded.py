@@ -11,7 +11,7 @@ import numpy as np
 from PIL import Image, ImageDraw
 
 ROOT=Path(__file__).resolve().parents[1]
-DEFAULT=ROOT/'output_v20/Im_Upping_My_Pdoom_Semantic_Thrust_1080p.mp4'
+DEFAULT=ROOT/'output_v20/Im_Upping_My_Pdoom_Semantic_Thrust_Smooth_1080p.mp4'
 PLAN=(
     ('blow_1',(1691,1692,1695)),
     ('blow_2',(1698,1699,1702)),

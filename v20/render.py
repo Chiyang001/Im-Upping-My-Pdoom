@@ -610,10 +610,11 @@ def authored_frame_view(t,hit=0):
  origin=shot_origin(shot,t)
  eye=np.array(shot['camera_eye'],float)+origin
  target=np.array(shot['camera_target'],float)+origin
- eye+=np.array([math.sin(t*79)*hit*.10,math.cos(t*67)*hit*.08,-hit*.22])
  impact=sample_impact(t);state['impact']=impact;outro=sample_outro(t);state['outro']=outro
- roll=shot['roll']+hit*math.sin(t*29)*.005
- state['lens']=shot['fov']-hit*.5
+ # Ordinary beats light the scene without shaking or zooming the camera.
+ # Dedicated flight, explosion, FREE and GO cameras retain their own motion.
+ roll=shot['roll']
+ state['lens']=shot['fov']
  ag=sample_aggression(t);state['aggression']=ag
  forward=unit(target-eye);right=unit(np.cross(forward,[0.,1.,0.]));up=unit(np.cross(right,forward));basis=np.array([right,up,forward]).T
  eye+=basis@np.array(ag['camera_local']);target+=basis@np.array(ag['target_local']);roll+=ag['roll'];state['lens']+=ag['fov']
@@ -679,11 +680,12 @@ def frame_view(t,hit=0):
   eye=np.array(hook['eye']);target=np.array(hook['target']);state['roll']=hook['roll'];state['lens']=hook['fov'];state['hook']=hook['phase']
   vp=perspective(math.radians(state['lens']),W/H,far=300)@view_matrix(eye,target,state['roll'])
   return state,eye,target,vp
- phrase=phrase_camera(t,eye,target,state['roll'],state['lens'],g=globals())
  semantic_camera=meaning_camera(t,eye,target,state['roll'],state['lens'],g=globals())
- pair=pair_camera(t,eye,target,state['roll'],state['lens'],g=globals())
  upgrade=upgrade_camera(t,eye,target,state['roll'],state['lens'],g=globals())
- directed=upgrade or semantic_camera or phrase or pair
+ # Keep v20's authored shots and specialist sequences. Per-word-group camera
+ # overlays reset their direction, bank and lens every ~0.6s and are disabled.
+ # The same modules' finite mechanical actions remain active in scene drawing.
+ directed=upgrade or semantic_camera
  state['pair_action']=pair_action_state(t);state['upgrade']=sample_upgrade(t).get('phase')
  if directed:
   eye=np.array(directed['eye']);target=np.array(directed['target']);state['roll']=directed['roll'];state['lens']=directed['fov'];state['meaning_camera']=directed['phase']
@@ -713,7 +715,7 @@ def frame_view(t,hit=0):
     reach=float(np.abs(clip[:,:2]/clip[:,3:4]).max())/.94
     if reach>1:state['lens']=min(108.,math.degrees(2*math.atan(math.tan(math.radians(state['lens'])/2)*reach)))
  # Tangential word-flight additions retain the authored aircraft up vector.
- cam=state['impact_camera'] if (semantic_camera or pair) and state['impact_camera']['active'] else None if tracked or ending['active'] else state['impact_camera']
+ cam=state['impact_camera'] if semantic_camera and state['impact_camera']['active'] else None if tracked or ending['active'] else state['impact_camera']
  vp=perspective(math.radians(state['lens']),W/H,far=300)@view_matrix(eye,target,roll,cam if not state['outro']['active'] else None)
  return state,eye,target,vp
 
@@ -1069,7 +1071,7 @@ def drawframe(t):
   draw_hook(t,vp,hit,globals())
   ctx.copy_framebuffer(resolve,ms);output.use();ctx.disable(gl.DEPTH_TEST);tex.use(0)
   post['editFX']=(0.,0.,0.,0.);post['editColor']=tuple(C);post['blastUV']=(.5,.5);post['blastFX']=(0.,0.,0.,0.)
-  post['finalFade']=1.;post['paper']=0.;post['impact']=sharp*.25;post['flash']=sample_hook(t)['flash'];q.render(gl.TRIANGLE_STRIP)
+  post['finalFade']=1.;post['paper']=0.;post['impact']=0.;post['flash']=sample_hook(t)['flash'];q.render(gl.TRIANGLE_STRIP)
   return output.read(components=3,alignment=1)
  growth=(.1+.9*ease(t/9))*sample_finale(t)['old_world_gain'];tension=.7+.3*ease((t-38)/80)
  # Persistent world layers move continuously but change their physical role by chapter.
@@ -1208,7 +1210,7 @@ def drawframe(t):
   long=state['long_outro'];post['blastFX']=(float(long['pulse']*.19*long['flight_gain']),0.,float(long['beat_elapsed']*3),float(long['chromatic']))
  wall=sample_free_impact(t)
  if wall['pressure']>.001:post['blastUV']=(.57,.51);post['blastFX']=(wall['pressure']*.50,wall['pressure']*.30,.11+wall['contact_age']*3.,wall['pressure']*.007)
- post['finalFade']=1.;post['paper']=paper;post['impact']=max(sharp*.6,wall['strike']*.9);post['flash']=max(sharp*.12,wall['pressure']*.28);q.render(gl.TRIANGLE_STRIP)
+ post['finalFade']=1.;post['paper']=paper;post['impact']=wall['strike']*.9;post['flash']=max(sharp*.12,wall['pressure']*.28);q.render(gl.TRIANGLE_STRIP)
  result=output.read(components=3,alignment=1)
  return result
 

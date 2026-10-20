@@ -11,7 +11,7 @@ PREVIEW_FLAGS = (
     'preview', 'meaning_preview',
 )
 SOURCE_NAME = '\u5413\u54ed\u4e86Opus5.5 AGI\u6982\u5ff5MV.mp4'
-OUTPUT_NAME = 'Im_Upping_My_Pdoom_Semantic_Thrust_1080p.mp4'
+OUTPUT_NAME = 'Im_Upping_My_Pdoom_Semantic_Thrust_Smooth_1080p.mp4'
 
 
 def _absolute(value, invocation_dir):
