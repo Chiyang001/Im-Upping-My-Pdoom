@@ -1,4 +1,12 @@
-# 最新成片：I'm Upping My P(doom) — Object Pursuit
+# 最新成片：I'm Upping My P(doom) — Kinetic Hook
+
+当前交付：output_v19/Im_Upping_My_Pdoom_Kinetic_Hook_1080p.mp4
+
+制作说明与复现入口：v19/README.md。前奏 1.42 秒从首帧开始展示四个点火机构镜头；前半 83 个演唱词组中 63 组采用新增机位，另四段无词近景持续推进。Repeat 用同一神经轨道的前进、倒走与再启动表现；CDR 删除旧悬浮矩形，重做连续三轨桁架、CAR 首元素与 CDR 尾指针。FREE 连续六次预击积累变形，57.745 秒第七击使整笼变成 366 个机械碎片，镜头穿过碎片。保留原单眼造型、NVDA → Moon → Omega 实体跟拍与动态无限环尾声，无片尾标题或署名。
+
+1920×1080、30 fps、4700 帧，1,195,362,504 字节。全片解码与原 AAC 位流一致性通过，294 事件各抽七帧并生成 49 页转场联系表。225 词与 18 段飞行 / 17 处实际穿字通过。实际编码 48 张整合抽样、前奏全部 43 帧、FREE 24 帧、Repeat / CDR 16 帧及各专项原生 HD 重点图通过复核。最后 62 帧全部不同、最后八帧持续运动；七张未修改后半及尾声原始 RGB 帧与 v18 完全相同。前奏末帧进入虹膜前保留密集边缘，无空白等待。
+
+## v18 记录：Object Pursuit
 
 当前交付：output_v18/Im_Upping_My_Pdoom_Object_Pursuit_1080p.mp4
 
