@@ -1,4 +1,16 @@
-# 最新成片：I'm Upping My P(doom) — HIDDEN MACHINE
+# 最新成片：I'm Upping My P(doom) — Integrated Linework
+
+当前交付：output_v16/Im_Upping_My_Pdoom_Integrated_Linework_1080p.mp4
+
+制作说明与复现入口：v16/README.md。恢复 v14 原版单眼球，重做 GPU 一体机舱与机械安装结构，去除 v15 新增的独立循环扫线和悬浮图标。27 段附加语义编排筛选为 16 段，其余回退原场景；保留 Transformer 五个插入机位、Go 灾难、P(doom) 爆炸和鼓点长尾声。
+
+1920×1080、30 fps、4700 帧，1,136,924,405 字节。全片解码、原 AAC 位流一致性与最后 62 帧定格检查通过；225 词与 17 处实际穿字检查通过。七帧原始眼球画面与 v14 完全一致；实际编码画面风格抽查通过。影音不随源码分发。
+
+## v15 记录
+
+本地成片：output_v15/Im_Upping_My_Pdoom_Meaning_in_Motion_1080p.mp4，1,005,646,209 字节。加入 39 项概念研究、27 段语义编排和 Transformer 五个插入机位；研究与制作记录保留于 v15/。新增图形的风格问题由 v16 修正。
+
+## v14 记录：HIDDEN MACHINE
 
 当前交付：output_v14/Im_Upping_My_Pdoom_Hidden_Machine_1080p.mp4
 
