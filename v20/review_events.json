@@ -1,0 +1,1782 @@
+[
+  {
+    "t": 0.0,
+    "label": "cold open ignition",
+    "kind": "hook cut"
+  },
+  {
+    "t": 0.24,
+    "label": "cold open ignition",
+    "kind": "hook cut"
+  },
+  {
+    "t": 0.69,
+    "label": "cold open ignition",
+    "kind": "hook cut"
+  },
+  {
+    "t": 0.918,
+    "label": "cold open ignition",
+    "kind": "hook cut"
+  },
+  {
+    "t": 1.14,
+    "label": "cold open ignition",
+    "kind": "hook cut"
+  },
+  {
+    "t": 1.42,
+    "label": "I / see",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 2.64,
+    "label": "sparks",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 3.32,
+    "label": "of",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 3.58,
+    "label": "AGI",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 4.38,
+    "label": "in / your",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 5.14,
+    "label": "eyes",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 5.58,
+    "label": "Your / circuits",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 5.7,
+    "label": "circuits",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 6.4,
+    "label": "make",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 6.72,
+    "label": "me",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 6.9,
+    "label": "nervous",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 7.05,
+    "label": "circuits",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 7.32,
+    "label": "that's / no",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 8.4,
+    "label": "surprise",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 9.08,
+    "label": "There / was",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 9.1,
+    "kind": "crash",
+    "label": "current / loss cliff"
+  },
+  {
+    "t": 9.94,
+    "label": "a / sudden",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 10.2,
+    "label": "loss",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 10.52,
+    "label": "drop",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 10.924999999999999,
+    "label": "LOSS DROP plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 10.98,
+    "label": "in / your",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 11.52,
+    "label": "training / loss",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 12.94,
+    "label": "Now / I'm",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 12.99,
+    "label": "control",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 13.62,
+    "label": "your / servant",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 14.4,
+    "label": "and / you're",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 14.95,
+    "label": "control",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 15.44,
+    "label": "my",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 15.58,
+    "label": "boss",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 16.2,
+    "label": "ChatGPT,",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 17.07,
+    "kind": "occlusion",
+    "label": "boss bridge / jaw"
+  },
+  {
+    "t": 18.62,
+    "label": "please / don't",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 19.8,
+    "label": "dialogue",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 20.22,
+    "label": "eat",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 20.68,
+    "label": "me / alive",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 22.19,
+    "label": "risk",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 22.2,
+    "label": "I'm / upping",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 23.35,
+    "label": "risk",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 23.38,
+    "label": "my",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 23.56,
+    "label": "P(doom)",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 23.62,
+    "kind": "radial",
+    "label": "PDOOM 1"
+  },
+  {
+    "t": 24.04,
+    "label": "'cause / the",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 24.12,
+    "label": "foom",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 24.7,
+    "label": "future",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 24.98,
+    "label": "goes",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 25.44,
+    "label": "foom",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 25.5,
+    "label": "foom",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 25.685,
+    "kind": "match",
+    "label": "FOOM / room"
+  },
+  {
+    "t": 26.06,
+    "label": "Trapped",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 26.2,
+    "label": "Chinese syntax machine",
+    "kind": "semantic action"
+  },
+  {
+    "t": 26.56,
+    "label": "in / the",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 26.9,
+    "label": "Chinese syntax machine",
+    "kind": "semantic action"
+  },
+  {
+    "t": 26.96,
+    "label": "Chinese / room",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 27.28,
+    "label": "CHINESE ROOM",
+    "kind": "flight attack"
+  },
+  {
+    "t": 27.5,
+    "label": "Chinese syntax machine",
+    "kind": "semantic action"
+  },
+  {
+    "t": 27.745,
+    "label": "CHINESE ROOM plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 27.8,
+    "label": "with / a",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 28.34,
+    "label": "bag",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 28.74,
+    "label": "of / shrooms",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 29.12,
+    "label": "shrooms onset",
+    "kind": "physical noun"
+  },
+  {
+    "t": 29.2,
+    "label": "shrooms",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 29.68,
+    "label": "See",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 29.8,
+    "label": "Smiling mask and alien body",
+    "kind": "semantic action"
+  },
+  {
+    "t": 30.08,
+    "label": "through",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 30.25,
+    "label": "Smiling mask and alien body",
+    "kind": "semantic action"
+  },
+  {
+    "t": 30.4,
+    "label": "the",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 30.58,
+    "label": "shoggoth's",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 30.8,
+    "label": "Smiling mask and alien body",
+    "kind": "semantic action"
+  },
+  {
+    "t": 30.965,
+    "label": "MASK REVEAL plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 31.02,
+    "label": "lies",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 31.45,
+    "label": "Smiling mask and alien body",
+    "kind": "semantic action"
+  },
+  {
+    "t": 31.78,
+    "label": "With / your",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 31.83,
+    "kind": "match",
+    "label": "lies / seeing eye"
+  },
+  {
+    "t": 33.8,
+    "label": "Shinigami / eyes",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 35.52,
+    "label": "iris_rim",
+    "kind": "instrumental camera cut"
+  },
+  {
+    "t": 36.7,
+    "label": "iris_exit",
+    "kind": "instrumental camera cut"
+  },
+  {
+    "t": 38.12,
+    "label": "We / had",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 38.19,
+    "label": "stable",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 39.08,
+    "label": "a / stable",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 39.78,
+    "label": "training / run",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 40.0,
+    "label": "stable",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 41.16,
+    "label": "But / now",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 41.8,
+    "label": "the",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 41.98,
+    "label": "singularity's",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 42.05,
+    "label": "SINGULARITY",
+    "kind": "flight attack"
+  },
+  {
+    "t": 43.1,
+    "label": "singularity",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 44.02,
+    "label": "begun",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 44.074999999999996,
+    "label": "SINGULARITY plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 44.72,
+    "label": "And / you're",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 44.79,
+    "label": "optimization",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 45.62,
+    "label": "optimizing,",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 46.45,
+    "label": "optimization",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 47.44,
+    "label": "accelerating",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 48.58,
+    "label": "ACCELERATING plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 48.64,
+    "label": "I / feel",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 48.645,
+    "label": "atoms",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 49.785,
+    "label": "ATOMS",
+    "kind": "flight attack"
+  },
+  {
+    "t": 49.9,
+    "label": "my",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 50.16,
+    "label": "atoms",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 50.205,
+    "label": "ATOMS plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 50.92,
+    "label": "rearranging",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 51.35,
+    "label": "atoms",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 52.56,
+    "label": "Sydney,",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 53.885,
+    "kind": "occlusion",
+    "label": "atoms / prison"
+  },
+  {
+    "t": 55.48,
+    "label": "please / let",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 56.2,
+    "label": "new containment cage",
+    "kind": "object choreography"
+  },
+  {
+    "t": 56.38,
+    "label": "repeated cage impact",
+    "kind": "physical strike"
+  },
+  {
+    "t": 56.615,
+    "label": "repeated cage impact",
+    "kind": "physical strike"
+  },
+  {
+    "t": 56.8,
+    "label": "sydney",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 56.84,
+    "label": "repeated cage impact",
+    "kind": "physical strike"
+  },
+  {
+    "t": 56.96,
+    "label": "me / free",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 57.07,
+    "label": "repeated cage impact",
+    "kind": "physical strike"
+  },
+  {
+    "t": 57.295,
+    "label": "repeated cage impact",
+    "kind": "physical strike"
+  },
+  {
+    "t": 57.525,
+    "label": "repeated cage impact",
+    "kind": "physical strike"
+  },
+  {
+    "t": 57.56,
+    "label": "FREE preload",
+    "kind": "object choreography"
+  },
+  {
+    "t": 57.745,
+    "label": "repeated cage impact",
+    "kind": "physical strike"
+  },
+  {
+    "t": 57.97,
+    "label": "rebound",
+    "kind": "object choreography"
+  },
+  {
+    "t": 58.22,
+    "label": "cage opening",
+    "kind": "object choreography"
+  },
+  {
+    "t": 58.4,
+    "label": "I'm / upping",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 58.43,
+    "label": "sydney",
+    "kind": "semantic handoff"
+  },
+  {
+    "t": 59.74,
+    "label": "my",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 59.94,
+    "label": "P(doom)",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 59.985,
+    "kind": "vertical",
+    "label": "PDOOM 2"
+  },
+  {
+    "t": 60.3,
+    "label": "I / hear",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 60.86,
+    "label": "the",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 61.02,
+    "label": "basilisk",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 61.45,
+    "label": "basilisk",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 61.84,
+    "label": "boom",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 62.34,
+    "label": "NVDA",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 62.5,
+    "label": "payload camera settled",
+    "kind": "object choreography"
+  },
+  {
+    "t": 63.05,
+    "label": "orbital",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 63.26,
+    "label": "payload to lunar pursuit",
+    "kind": "object choreography"
+  },
+  {
+    "t": 63.28,
+    "label": "to / the",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 63.45,
+    "label": "lunar camera settled",
+    "kind": "object choreography"
+  },
+  {
+    "t": 63.76,
+    "label": "moon",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 64.06,
+    "label": "the / Omega",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 64.22,
+    "label": "Omega camera settled",
+    "kind": "object choreography"
+  },
+  {
+    "t": 64.52,
+    "label": "Point's",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 65.0,
+    "label": "omega",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 65.04,
+    "label": "coming / soon",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 65.92,
+    "kind": "match",
+    "label": "ascent / compute grid"
+  },
+  {
+    "t": 65.94,
+    "label": "1e30",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 66.88,
+    "label": "flops",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 67.0,
+    "label": "compute",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 67.28,
+    "label": "a / second",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 68.185,
+    "label": "compute",
+    "kind": "semantic handoff"
+  },
+  {
+    "t": 68.2,
+    "label": "\"That",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 69.9,
+    "label": "was / safe",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 70.4,
+    "label": "enough\"",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 70.5,
+    "label": "inspection",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 70.72,
+    "label": "we / reckoned",
+    "kind": "lyric pair coverage"
+  },
+  {
+    "t": 72.9,
+    "label": "approval_seam",
+    "kind": "instrumental camera cut"
+  },
+  {
+    "t": 73.33,
+    "label": "approval_exit",
+    "kind": "instrumental camera cut"
+  },
+  {
+    "t": 73.87,
+    "label": "inspection",
+    "kind": "semantic handoff"
+  },
+  {
+    "t": 74.4,
+    "label": "Repeat or CDR physical choreography",
+    "kind": "meaning motion"
+  },
+  {
+    "t": 75.1,
+    "label": "mlp",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 75.9,
+    "label": "Repeat or CDR physical choreography",
+    "kind": "meaning motion"
+  },
+  {
+    "t": 76.3,
+    "label": "Repeat or CDR physical choreography",
+    "kind": "meaning motion"
+  },
+  {
+    "t": 76.42,
+    "label": "Repeat or CDR physical choreography",
+    "kind": "meaning motion"
+  },
+  {
+    "t": 77.18,
+    "label": "Repeat or CDR physical choreography",
+    "kind": "meaning motion"
+  },
+  {
+    "t": 77.24,
+    "label": "vonneumann",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 77.34,
+    "label": "memory-withdrawal",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 78.5,
+    "label": "memory-withdrawal",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 78.9,
+    "label": "vonneumann",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 79.8,
+    "label": "memory-withdrawal",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 80.68,
+    "label": "left-junction",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 80.85,
+    "label": "Capability escapes training constraints",
+    "kind": "semantic action"
+  },
+  {
+    "t": 81.5,
+    "label": "Capability escapes training constraints",
+    "kind": "semantic action"
+  },
+  {
+    "t": 81.62,
+    "label": "left-junction",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 82.05,
+    "kind": "whip",
+    "label": "sharp left turn"
+  },
+  {
+    "t": 82.1,
+    "label": "Capability escapes training constraints",
+    "kind": "semantic action"
+  },
+  {
+    "t": 82.46,
+    "label": "left-junction",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 83.2,
+    "label": "Capability escapes training constraints",
+    "kind": "semantic action"
+  },
+  {
+    "t": 83.34,
+    "label": "left-junction",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 84.78,
+    "label": "cdr",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 85.38,
+    "label": "Repeat or CDR physical choreography",
+    "kind": "meaning motion"
+  },
+  {
+    "t": 86.4,
+    "label": "Repeat or CDR physical choreography",
+    "kind": "meaning motion"
+  },
+  {
+    "t": 87.1,
+    "label": "cdr",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 88.62,
+    "label": "Repeat or CDR physical choreography",
+    "kind": "meaning motion"
+  },
+  {
+    "t": 89.6,
+    "label": "Repeat or CDR physical choreography",
+    "kind": "meaning motion"
+  },
+  {
+    "t": 89.995,
+    "label": "tether-release",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 90.5,
+    "label": "tether-release",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 92.0,
+    "label": "gato",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 92.84,
+    "label": "tether-release",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 94.06,
+    "label": "tether-release",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 94.3,
+    "label": "GO seismic attack",
+    "kind": "earthquake"
+  },
+  {
+    "t": 94.8,
+    "label": "GO seismic attack",
+    "kind": "earthquake"
+  },
+  {
+    "t": 94.86,
+    "label": "forming-die",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 95.23,
+    "label": "GO seismic attack",
+    "kind": "earthquake"
+  },
+  {
+    "t": 95.435,
+    "label": "GO seismic attack",
+    "kind": "earthquake"
+  },
+  {
+    "t": 95.68,
+    "label": "GO seismic attack",
+    "kind": "earthquake"
+  },
+  {
+    "t": 95.91,
+    "kind": "match",
+    "label": "grip / conveyor"
+  },
+  {
+    "t": 96.1,
+    "label": "forming-die",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 96.3,
+    "label": "forming-die",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 96.335,
+    "kind": "fracture",
+    "label": "PDOOM 3"
+  },
+  {
+    "t": 96.5,
+    "label": "Resources become paperclips",
+    "kind": "semantic action"
+  },
+  {
+    "t": 96.68,
+    "label": "forming-die",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 96.92,
+    "label": "forming-die",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 97.1,
+    "label": "Resources become paperclips",
+    "kind": "semantic action"
+  },
+  {
+    "t": 97.65,
+    "label": "Resources become paperclips",
+    "kind": "semantic action"
+  },
+  {
+    "t": 97.74,
+    "label": "forming-die",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 98.1,
+    "label": "forming-die",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 98.7,
+    "label": "absent-operator",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 98.845,
+    "label": "killswitch",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 99.12,
+    "label": "absent-operator",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 99.46,
+    "label": "absent-operator",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 99.7,
+    "label": "absent-operator",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 100.16,
+    "label": "absent-operator",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 100.5,
+    "label": "killswitch",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 101.1,
+    "label": "absent-operator",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 101.42,
+    "label": "absent-operator",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 101.74,
+    "label": "absent-operator",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 102.32,
+    "label": "burning-trace",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 102.6,
+    "label": "burning-trace",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 102.86,
+    "label": "burning-trace",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 103.16,
+    "label": "burning-trace",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 103.35,
+    "label": "fuse",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 103.56,
+    "label": "burning-trace",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 103.7,
+    "label": "burning-trace",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 103.87,
+    "label": "FUSE",
+    "kind": "flight attack"
+  },
+  {
+    "t": 104.33,
+    "label": "fuse",
+    "kind": "semantic handoff"
+  },
+  {
+    "t": 104.54,
+    "label": "independent-axes",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 104.7,
+    "label": "Capability and goal are independent",
+    "kind": "semantic action"
+  },
+  {
+    "t": 105.9,
+    "label": "Capability and goal are independent",
+    "kind": "semantic action"
+  },
+  {
+    "t": 106.84,
+    "label": "independent-axes",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 107.0,
+    "label": "Capability and goal are independent",
+    "kind": "semantic action"
+  },
+  {
+    "t": 107.28,
+    "label": "independent-axes",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 108.5,
+    "label": "Capability and goal are independent",
+    "kind": "semantic action"
+  },
+  {
+    "t": 109.33,
+    "label": "transformer",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 109.82,
+    "label": "Transformer computation insert",
+    "kind": "camera cut"
+  },
+  {
+    "t": 110.4,
+    "label": "Transformer computation insert",
+    "kind": "camera cut"
+  },
+  {
+    "t": 111.15,
+    "label": "Transformer computation insert",
+    "kind": "camera cut"
+  },
+  {
+    "t": 111.6,
+    "label": "transformer",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 112.42,
+    "label": "Transformer computation insert",
+    "kind": "camera cut"
+  },
+  {
+    "t": 113.26,
+    "label": "Transformer computation insert",
+    "kind": "camera cut"
+  },
+  {
+    "t": 114.1,
+    "label": "decoder-departure",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 114.22,
+    "label": "decoder-departure",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 114.94,
+    "label": "DISOBEY plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 115.0,
+    "label": "density-pressure",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 115.1,
+    "label": "Data feeds dense model",
+    "kind": "semantic action"
+  },
+  {
+    "t": 115.55,
+    "label": "Data feeds dense model",
+    "kind": "semantic action"
+  },
+  {
+    "t": 116.1,
+    "label": "density-pressure",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 116.595,
+    "kind": "shatter",
+    "label": "fence / broken safety"
+  },
+  {
+    "t": 116.7,
+    "label": "Data feeds dense model",
+    "kind": "semantic action"
+  },
+  {
+    "t": 116.88,
+    "label": "density-pressure",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 117.3,
+    "label": "density-pressure",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 117.505,
+    "label": "SAFETY FENCE",
+    "kind": "flight attack"
+  },
+  {
+    "t": 117.62,
+    "label": "density-pressure",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 117.88,
+    "label": "density-pressure",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 117.925,
+    "label": "SAFETY FENCE plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 118.645,
+    "label": "gpu",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 118.7,
+    "label": "feedback-tilt",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 119.4,
+    "label": "gpu",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 119.64,
+    "label": "feedback-tilt",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 120.18,
+    "label": "feedback-tilt",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 120.3,
+    "label": "Feedback mask separates",
+    "kind": "semantic action"
+  },
+  {
+    "t": 120.9,
+    "label": "Feedback mask separates",
+    "kind": "semantic action"
+  },
+  {
+    "t": 121.56,
+    "label": "feedback-tilt",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 121.7,
+    "label": "Feedback mask separates",
+    "kind": "semantic action"
+  },
+  {
+    "t": 121.76,
+    "label": "feedback-tilt",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 122.25,
+    "label": "Feedback mask separates",
+    "kind": "semantic action"
+  },
+  {
+    "t": 122.485,
+    "label": "ASKEW plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 122.54,
+    "label": "branch_seed",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 123.3,
+    "label": "branch_seed",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 123.87,
+    "kind": "match",
+    "label": "GPU grid / loom"
+  },
+  {
+    "t": 124.04,
+    "label": "selected-future",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 125.2,
+    "label": "selected-future",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 125.4,
+    "label": "selected-future",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 125.46,
+    "kind": "recursive",
+    "label": "PDOOM 4"
+  },
+  {
+    "t": 125.86,
+    "label": "selected-future",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 126.5,
+    "label": "selected-future",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 127.16,
+    "label": "selected-future",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 127.2,
+    "label": "loom",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 127.42,
+    "label": "selected-future",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 127.9,
+    "label": "archive to successor",
+    "kind": "upgrade physical action"
+  },
+  {
+    "t": 127.96,
+    "label": "masked",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 128.08,
+    "label": "archive to successor",
+    "kind": "upgrade physical action"
+  },
+  {
+    "t": 128.1,
+    "label": "Recursive construction",
+    "kind": "semantic action"
+  },
+  {
+    "t": 128.56,
+    "label": "archive to successor",
+    "kind": "upgrade physical action"
+  },
+  {
+    "t": 128.8,
+    "label": "masked",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 129.15,
+    "label": "Recursive construction",
+    "kind": "semantic action"
+  },
+  {
+    "t": 129.18,
+    "label": "archive to successor",
+    "kind": "upgrade physical action"
+  },
+  {
+    "t": 129.6,
+    "label": "archive to successor",
+    "kind": "upgrade physical action"
+  },
+  {
+    "t": 129.98,
+    "label": "archive to successor",
+    "kind": "upgrade physical action"
+  },
+  {
+    "t": 130.2,
+    "label": "Recursive construction",
+    "kind": "semantic action"
+  },
+  {
+    "t": 130.56,
+    "label": "archive to successor",
+    "kind": "upgrade physical action"
+  },
+  {
+    "t": 130.96,
+    "label": "successor traversal",
+    "kind": "upgrade handoff"
+  },
+  {
+    "t": 131.14,
+    "label": "SELF UPGRADE",
+    "kind": "flight attack"
+  },
+  {
+    "t": 131.2,
+    "label": "Recursive construction",
+    "kind": "semantic action"
+  },
+  {
+    "t": 131.36,
+    "label": "successor traversal",
+    "kind": "upgrade handoff"
+  },
+  {
+    "t": 131.515,
+    "label": "SELF UPGRADE plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 131.76,
+    "label": "successor traversal",
+    "kind": "upgrade handoff"
+  },
+  {
+    "t": 132.2,
+    "label": "successor traversal",
+    "kind": "upgrade handoff"
+  },
+  {
+    "t": 132.22,
+    "label": "occluded-witness",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 132.4,
+    "label": "Unknown remains hidden",
+    "kind": "semantic action"
+  },
+  {
+    "t": 132.5,
+    "label": "occluded-witness",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 132.8,
+    "label": "occluded-witness",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 132.85,
+    "label": "Unknown remains hidden",
+    "kind": "semantic action"
+  },
+  {
+    "t": 133.18,
+    "label": "occluded-witness",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 133.3,
+    "label": "Unknown remains hidden",
+    "kind": "semantic action"
+  },
+  {
+    "t": 133.43,
+    "kind": "match",
+    "label": "eye / observer"
+  },
+  {
+    "t": 134.2,
+    "label": "occluded-witness",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 134.5,
+    "label": "Unknown remains hidden",
+    "kind": "semantic action"
+  },
+  {
+    "t": 134.6,
+    "label": "unknown",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 135.8,
+    "label": "occluded-witness",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 136.35,
+    "label": "backstage-strings",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 136.83,
+    "label": "show",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 136.9,
+    "label": "backstage-strings",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 138.06,
+    "label": "backstage-strings",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 138.7,
+    "label": "show",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 138.78,
+    "label": "backstage-strings",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 139.58,
+    "label": "backstage-strings",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 140.425,
+    "label": "SHOW EXIT plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 140.6,
+    "label": "backstage-strings",
+    "kind": "late lyric camera"
+  },
+  {
+    "t": 141.14,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 141.2,
+    "label": "show",
+    "kind": "semantic handoff"
+  },
+  {
+    "t": 141.595,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 142.05,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 142.505,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 142.96,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 143.415,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 143.87,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 144.32,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 144.775,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 145.23,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 145.685,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 146.14,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 146.595,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 147.06,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 147.505,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 147.97,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 148.415,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 148.88,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 149.32,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 149.775,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 150.23,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 150.7,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 151.14,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 151.595,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 152.05,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 152.5,
+    "label": "moving infinity entry",
+    "kind": "object choreography"
+  },
+  {
+    "t": 152.505,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 152.96,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 153.2,
+    "label": "single witness handoff",
+    "kind": "object choreography"
+  },
+  {
+    "t": 153.415,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 153.87,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 154.325,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 154.78,
+    "label": "loop crossover approach",
+    "kind": "object choreography"
+  },
+  {
+    "t": 155.15,
+    "label": "iris dive",
+    "kind": "object choreography"
+  },
+  {
+    "t": 155.8,
+    "label": "deep iris",
+    "kind": "object choreography"
+  },
+  {
+    "t": 156.6,
+    "label": "moving final image",
+    "kind": "object choreography"
+  }
+]
