@@ -57,6 +57,8 @@ Thumbs.db
 !v12/qa_encoded_flight_plan.json
 !v14/qa_metaphor_review_plan.json
 !v14/metaphor_research.json
+!v15/concept_lexicon.json
+!v15/qa_metaphor_review_plan.json
 **/validation*.txt
 
 # Optional clean-checkout smoke-test locations

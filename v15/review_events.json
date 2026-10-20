@@ -1,0 +1,917 @@
+[
+  {
+    "t": 0.0,
+    "label": "sparks",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 3.7,
+    "label": "sparks",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 5.58,
+    "label": "circuits",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 5.7,
+    "kind": "match",
+    "label": "spark / circuit"
+  },
+  {
+    "t": 7.1,
+    "label": "circuits",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 9.08,
+    "label": "loss",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 9.1,
+    "kind": "crash",
+    "label": "current / loss cliff"
+  },
+  {
+    "t": 10.2,
+    "label": "loss",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 10.52,
+    "label": "LOSS DROP",
+    "kind": "flight attack"
+  },
+  {
+    "t": 10.924999999999999,
+    "label": "LOSS DROP plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 12.99,
+    "label": "hierarchy",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 14.5,
+    "label": "hierarchy",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 16.2,
+    "label": "hierarchy",
+    "kind": "semantic handoff"
+  },
+  {
+    "t": 17.07,
+    "kind": "occlusion",
+    "label": "boss bridge / jaw"
+  },
+  {
+    "t": 22.19,
+    "label": "risk1",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 23.3,
+    "label": "risk1",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 23.62,
+    "kind": "radial",
+    "label": "PDOOM 1"
+  },
+  {
+    "t": 25.685,
+    "label": "risk1",
+    "kind": "semantic handoff"
+  },
+  {
+    "t": 26.2,
+    "label": "Chinese syntax machine",
+    "kind": "semantic action"
+  },
+  {
+    "t": 26.9,
+    "label": "Chinese syntax machine",
+    "kind": "semantic action"
+  },
+  {
+    "t": 27.28,
+    "label": "CHINESE ROOM",
+    "kind": "flight attack"
+  },
+  {
+    "t": 27.5,
+    "label": "Chinese syntax machine",
+    "kind": "semantic action"
+  },
+  {
+    "t": 27.745,
+    "label": "CHINESE ROOM plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 29.2,
+    "label": "Chinese syntax machine",
+    "kind": "semantic action"
+  },
+  {
+    "t": 29.8,
+    "label": "Smiling mask and alien body",
+    "kind": "semantic action"
+  },
+  {
+    "t": 30.25,
+    "label": "Smiling mask and alien body",
+    "kind": "semantic action"
+  },
+  {
+    "t": 30.58,
+    "label": "MASK REVEAL",
+    "kind": "flight attack"
+  },
+  {
+    "t": 30.8,
+    "label": "Smiling mask and alien body",
+    "kind": "semantic action"
+  },
+  {
+    "t": 30.965,
+    "label": "MASK REVEAL plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 31.45,
+    "label": "Smiling mask and alien body",
+    "kind": "semantic action"
+  },
+  {
+    "t": 31.83,
+    "label": "shinigami",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 34.9,
+    "label": "shinigami",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 38.19,
+    "label": "stable",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 39.8,
+    "label": "stable",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 41.16,
+    "label": "stable",
+    "kind": "semantic handoff"
+  },
+  {
+    "t": 42.05,
+    "label": "SINGULARITY",
+    "kind": "flight attack"
+  },
+  {
+    "t": 44.074999999999996,
+    "label": "SINGULARITY plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 44.79,
+    "label": "optimizing",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 46.4,
+    "label": "optimizing",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 47.44,
+    "label": "ACCELERATING",
+    "kind": "flight attack"
+  },
+  {
+    "t": 48.58,
+    "label": "ACCELERATING plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 48.645,
+    "label": "optimizing",
+    "kind": "semantic handoff"
+  },
+  {
+    "t": 49.785,
+    "label": "ATOMS",
+    "kind": "flight attack"
+  },
+  {
+    "t": 50.205,
+    "label": "ATOMS plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 52.56,
+    "label": "sydney",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 53.885,
+    "kind": "occlusion",
+    "label": "atoms / prison"
+  },
+  {
+    "t": 55.7,
+    "label": "sydney",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 58.43,
+    "label": "sydney",
+    "kind": "semantic handoff"
+  },
+  {
+    "t": 59.985,
+    "kind": "vertical",
+    "label": "PDOOM 2"
+  },
+  {
+    "t": 60.86,
+    "label": "basilisk",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 61.5,
+    "label": "basilisk",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 62.34,
+    "label": "moon",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 63.2,
+    "label": "moon",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 64.22,
+    "label": "omega",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 65.0,
+    "label": "omega",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 65.92,
+    "kind": "match",
+    "label": "ascent / compute grid"
+  },
+  {
+    "t": 65.94,
+    "label": "compute",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 67.0,
+    "label": "compute",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 68.185,
+    "label": "approval",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 70.9,
+    "label": "approval",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 73.87,
+    "label": "mlp",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 75.1,
+    "label": "mlp",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 76.42,
+    "label": "FEEDBACK REPEAT",
+    "kind": "flight attack"
+  },
+  {
+    "t": 77.18,
+    "label": "FEEDBACK REPEAT plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 77.24,
+    "label": "vonneumann",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 78.9,
+    "label": "vonneumann",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 80.68,
+    "label": "vonneumann",
+    "kind": "semantic handoff"
+  },
+  {
+    "t": 80.85,
+    "label": "Capability escapes training constraints",
+    "kind": "semantic action"
+  },
+  {
+    "t": 81.5,
+    "label": "Capability escapes training constraints",
+    "kind": "semantic action"
+  },
+  {
+    "t": 82.05,
+    "kind": "whip",
+    "label": "sharp left turn"
+  },
+  {
+    "t": 82.1,
+    "label": "Capability escapes training constraints",
+    "kind": "semantic action"
+  },
+  {
+    "t": 83.2,
+    "label": "Capability escapes training constraints",
+    "kind": "semantic action"
+  },
+  {
+    "t": 84.78,
+    "label": "cdr",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 87.1,
+    "label": "cdr",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 89.995,
+    "label": "gato",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 92.0,
+    "label": "gato",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 94.06,
+    "label": "gato",
+    "kind": "semantic handoff"
+  },
+  {
+    "t": 94.3,
+    "label": "GO seismic attack",
+    "kind": "earthquake"
+  },
+  {
+    "t": 94.8,
+    "label": "GO seismic attack",
+    "kind": "earthquake"
+  },
+  {
+    "t": 95.23,
+    "label": "GO seismic attack",
+    "kind": "earthquake"
+  },
+  {
+    "t": 95.435,
+    "label": "GO seismic attack",
+    "kind": "earthquake"
+  },
+  {
+    "t": 95.68,
+    "label": "GO seismic attack",
+    "kind": "earthquake"
+  },
+  {
+    "t": 95.91,
+    "kind": "match",
+    "label": "grip / conveyor"
+  },
+  {
+    "t": 96.1,
+    "label": "Resources become paperclips",
+    "kind": "semantic action"
+  },
+  {
+    "t": 96.335,
+    "kind": "fracture",
+    "label": "PDOOM 3"
+  },
+  {
+    "t": 96.5,
+    "label": "Resources become paperclips",
+    "kind": "semantic action"
+  },
+  {
+    "t": 97.1,
+    "label": "Resources become paperclips",
+    "kind": "semantic action"
+  },
+  {
+    "t": 97.65,
+    "label": "Resources become paperclips",
+    "kind": "semantic action"
+  },
+  {
+    "t": 98.845,
+    "label": "killswitch",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 100.5,
+    "label": "killswitch",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 102.32,
+    "label": "fuse",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 103.35,
+    "label": "fuse",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 103.87,
+    "label": "FUSE",
+    "kind": "flight attack"
+  },
+  {
+    "t": 104.33,
+    "label": "fuse",
+    "kind": "semantic handoff"
+  },
+  {
+    "t": 104.7,
+    "label": "Capability and goal are independent",
+    "kind": "semantic action"
+  },
+  {
+    "t": 105.9,
+    "label": "Capability and goal are independent",
+    "kind": "semantic action"
+  },
+  {
+    "t": 107.0,
+    "label": "Capability and goal are independent",
+    "kind": "semantic action"
+  },
+  {
+    "t": 108.5,
+    "label": "Capability and goal are independent",
+    "kind": "semantic action"
+  },
+  {
+    "t": 109.33,
+    "label": "transformer",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 109.82,
+    "label": "Transformer computation insert",
+    "kind": "camera cut"
+  },
+  {
+    "t": 110.4,
+    "label": "Transformer computation insert",
+    "kind": "camera cut"
+  },
+  {
+    "t": 111.15,
+    "label": "Transformer computation insert",
+    "kind": "camera cut"
+  },
+  {
+    "t": 111.6,
+    "label": "transformer",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 112.42,
+    "label": "Transformer computation insert",
+    "kind": "camera cut"
+  },
+  {
+    "t": 113.26,
+    "label": "Transformer computation insert",
+    "kind": "camera cut"
+  },
+  {
+    "t": 114.1,
+    "label": "Transformer computation insert",
+    "kind": "camera cut"
+  },
+  {
+    "t": 114.22,
+    "label": "DISOBEY",
+    "kind": "flight attack"
+  },
+  {
+    "t": 114.94,
+    "label": "DISOBEY plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 115.0,
+    "label": "transformer",
+    "kind": "semantic handoff"
+  },
+  {
+    "t": 115.1,
+    "label": "Data feeds dense model",
+    "kind": "semantic action"
+  },
+  {
+    "t": 115.55,
+    "label": "Data feeds dense model",
+    "kind": "semantic action"
+  },
+  {
+    "t": 116.1,
+    "label": "Data feeds dense model",
+    "kind": "semantic action"
+  },
+  {
+    "t": 116.595,
+    "kind": "shatter",
+    "label": "fence / broken safety"
+  },
+  {
+    "t": 116.7,
+    "label": "Data feeds dense model",
+    "kind": "semantic action"
+  },
+  {
+    "t": 117.505,
+    "label": "SAFETY FENCE",
+    "kind": "flight attack"
+  },
+  {
+    "t": 117.925,
+    "label": "SAFETY FENCE plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 118.645,
+    "label": "gpu",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 119.4,
+    "label": "gpu",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 120.18,
+    "label": "gpu",
+    "kind": "semantic handoff"
+  },
+  {
+    "t": 120.3,
+    "label": "Feedback mask separates",
+    "kind": "semantic action"
+  },
+  {
+    "t": 120.9,
+    "label": "Feedback mask separates",
+    "kind": "semantic action"
+  },
+  {
+    "t": 121.7,
+    "label": "Feedback mask separates",
+    "kind": "semantic action"
+  },
+  {
+    "t": 121.76,
+    "label": "ASKEW",
+    "kind": "flight attack"
+  },
+  {
+    "t": 122.25,
+    "label": "Feedback mask separates",
+    "kind": "semantic action"
+  },
+  {
+    "t": 122.485,
+    "label": "ASKEW plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 122.54,
+    "label": "branch_seed",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 123.3,
+    "label": "branch_seed",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 123.87,
+    "kind": "match",
+    "label": "GPU grid / loom"
+  },
+  {
+    "t": 124.04,
+    "label": "branch_seed",
+    "kind": "semantic handoff"
+  },
+  {
+    "t": 125.46,
+    "kind": "recursive",
+    "label": "PDOOM 4"
+  },
+  {
+    "t": 125.86,
+    "label": "loom",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 127.2,
+    "label": "loom",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 127.96,
+    "label": "masked",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 128.1,
+    "label": "Recursive construction",
+    "kind": "semantic action"
+  },
+  {
+    "t": 128.8,
+    "label": "masked",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 129.15,
+    "label": "Recursive construction",
+    "kind": "semantic action"
+  },
+  {
+    "t": 129.6,
+    "label": "masked",
+    "kind": "semantic handoff"
+  },
+  {
+    "t": 130.2,
+    "label": "Recursive construction",
+    "kind": "semantic action"
+  },
+  {
+    "t": 131.14,
+    "label": "SELF UPGRADE",
+    "kind": "flight attack"
+  },
+  {
+    "t": 131.2,
+    "label": "Recursive construction",
+    "kind": "semantic action"
+  },
+  {
+    "t": 131.515,
+    "label": "SELF UPGRADE plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 132.22,
+    "label": "unknown",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 132.4,
+    "label": "Unknown remains hidden",
+    "kind": "semantic action"
+  },
+  {
+    "t": 132.85,
+    "label": "Unknown remains hidden",
+    "kind": "semantic action"
+  },
+  {
+    "t": 133.3,
+    "label": "Unknown remains hidden",
+    "kind": "semantic action"
+  },
+  {
+    "t": 133.43,
+    "kind": "match",
+    "label": "eye / observer"
+  },
+  {
+    "t": 134.5,
+    "label": "Unknown remains hidden",
+    "kind": "semantic action"
+  },
+  {
+    "t": 134.6,
+    "label": "unknown",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 136.83,
+    "label": "show",
+    "kind": "semantic entrance"
+  },
+  {
+    "t": 138.7,
+    "label": "show",
+    "kind": "semantic subject"
+  },
+  {
+    "t": 139.58,
+    "label": "SHOW EXIT",
+    "kind": "flight attack"
+  },
+  {
+    "t": 140.425,
+    "label": "SHOW EXIT plane pass",
+    "kind": "word pass"
+  },
+  {
+    "t": 141.14,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 141.2,
+    "label": "show",
+    "kind": "semantic handoff"
+  },
+  {
+    "t": 141.595,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 142.05,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 142.505,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 142.96,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 143.415,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 143.87,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 144.32,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 144.775,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 145.23,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 145.685,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 146.14,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 146.595,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 147.06,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 147.505,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 147.97,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 148.415,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 148.88,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 149.32,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 149.775,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 150.23,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 150.7,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 151.14,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 151.595,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 152.05,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 152.505,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 152.96,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 153.415,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 153.87,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  },
+  {
+    "t": 154.325,
+    "label": "continuous outro thrust",
+    "kind": "drum thrust"
+  }
+]

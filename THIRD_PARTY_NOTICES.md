@@ -7,4 +7,4 @@
 - **画面**：最新版 v14 的三维线框、场景与字形细节均由代码构造。`docs/` 中的预览图来自这些程序生成的画面。旧阶段的外部图片素材未收录。
 - **Python 与工具依赖**：NumPy、ModernGL、glcontext、Pillow、fontTools、Shapely、mapbox-earcut、imageio-ffmpeg 及其 FFmpeg 二进制各自适用上游许可证；本仓库不重新许可这些组件。
 
-概念研究的一手出处见 [v14 制作说明](v14/README.md#一手参考) 与 [隐喻研究笔记](v14/metaphor_research.md)。
+概念研究的一手出处见 [v15 制作说明](v15/README.md#主要一手参考)、[概念词典](v15/concept_lexicon.md) 与 [v14 隐喻研究笔记](v14/metaphor_research.md)。
